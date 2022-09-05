@@ -1938,7 +1938,8 @@
 		"vue": "_vue",
 		"postcss": "_css",
 		"django-html": "_html_3",
-		"blade": "_php"
+		"blade": "_php",
+		"gitignore": "_git"
 	},
 	"light": {
 		"file": "_default_light",
@@ -2255,7 +2256,8 @@
 			"vue": "_vue_light",
 			"postcss": "_css_light",
 			"django-html": "_html_3_light",
-			"blade": "_php_light"
+			"blade": "_php_light",
+			"gitignore": "_git_light"
 		},
 		"fileNames": {
 			"mix": "_hex_light",
@@ -2337,5 +2339,5 @@
 			"npm-debug.log": "_npm_ignored_light"
 		}
 	},
-	"version": "0bf377e9f41f7401f5189f5affd4c84f75bd9a66"
+	"version": "80500e626d4dab1d372173bef50607287c7990a7"
 }

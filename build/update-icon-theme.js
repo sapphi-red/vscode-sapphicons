@@ -46,7 +46,8 @@ const inheritIconFromLanguage = {
   jsonc: 'json',
   postcss: 'css',
   'django-html': 'html',
-  blade: 'php'
+  blade: 'php',
+  gitignore: 'git-commit'
 }
 
 const font = './seti-ui/fonts/seti/seti.woff'
