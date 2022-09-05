@@ -1,11 +1,6 @@
 {
 	"information_for_contributors": [
-		"This file has been generated from data in https://github.com/jesseweed/seti-ui",
-		"- icon definitions: https://github.com/jesseweed/seti-ui/blob/master/styles/_fonts/seti.less",
-		"- icon colors: https://github.com/jesseweed/seti-ui/blob/master/styles/ui-variables.less",
-		"- file associations: https://github.com/jesseweed/seti-ui/blob/master/styles/components/icons/mapping.less",
-		"If you want to provide a fix or improvement, please create a pull request against the jesseweed/seti-ui repository.",
-		"Once accepted there, we are happy to receive an update request."
+		"This file is auto generated. See build/update-icon-theme.js"
 	],
 	"fonts": [
 		{
@@ -2342,5 +2337,5 @@
 			"npm-debug.log": "_npm_ignored_light"
 		}
 	},
-	"version": "https://github.com/jesseweed/seti-ui/commit/2d10473b7575ec00c47eda751ea9caeec6b0b606"
+	"version": "23f6221f18346dce1e27e0bee5fe0fda1c283946"
 }

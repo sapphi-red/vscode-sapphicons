@@ -8,8 +8,8 @@ exports.font = function font () {
   return gulp.src(['./seti-ui/icons/*.svg'])
     .pipe(iconfontCss({
       fontName: fontName,
-      path: './seti-ui/styles/_fonts/_template.less',
-      targetPath: '../seti.less',
+      path: './seti-ui/styles/_fonts/_template.txt',
+      targetPath: '../seti.txt',
       fontPath: './seti-ui/styles/_fonts/seti/'
     }))
     .pipe(iconfont({
