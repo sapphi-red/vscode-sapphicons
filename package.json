@@ -30,7 +30,7 @@
   "scripts": {
     "create-icons": "gulp icons",
     "update-theme": "node ./build/update-icon-theme.js",
-    "preview": "sirv icons",
+    "preview": "sirv --dev icons",
     "format": "prettier --cache --write ."
   },
   "devDependencies": {
