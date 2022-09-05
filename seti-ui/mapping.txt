@@ -275,6 +275,9 @@
 (".npm-debug.log", "npm", @ignore)
 (".npmignore", "npm", @red)
 (".npmrc", "npm", @red)
+("package.json", "npm", @red)
+("package-lock.json", "npm", @grey)
+("npm-shrinkwrap.json", "npm", @grey)
 
 // OCAML
 (".ml", "ocaml", @orange)
@@ -631,6 +634,10 @@
 // ROLLUP
 ("rollup.config.js", "rollup", @red)
 
+// PNPM
+("pnpm.lock", "pnpm", @grey)
+("pnpm-workspace.yaml", "pnpm", @yellow)
+
 // SASS LINT
 ("sass-lint.yml", "sass", @pink)
 
@@ -645,8 +652,8 @@
 ('stylelint.config.cjs', 'stylelint', @white)
 
 // YARN
-("yarn.clean", "yarn", @blue)
-("yarn.lock", "yarn", @blue)
+("yarn.clean", "yarn", @grey)
+("yarn.lock", "yarn", @grey)
 
 // WEBPACK
 ("webpack.config.js", "webpack", @blue)
