@@ -11,6 +11,8 @@ const https = require('https');
 const url = require('url');
 const minimatch = require('minimatch');
 
+const vscodeVersion = '1.71.0'
+
 // list of languagesId not shipped with VSCode. The information is used to associate an icon with a language association
 // Please try and keep this list in alphabetical order! Thank you.
 const nonBuiltInLanguages = { // { fileNames, extensions  }
@@ -58,10 +60,10 @@ if (!FROM_DISK) {
 	fileAssociationFile = 'https://raw.githubusercontent.com/jesseweed/seti-ui/master/styles/components/icons/mapping.less';
 	colorsFile = 'https://raw.githubusercontent.com/jesseweed/seti-ui/master/styles/ui-variables.less';
 } else {
-	font = '../../../seti-ui/styles/_fonts/seti/seti.woff';
-	fontMappingsFile = '../../../seti-ui/styles/_fonts/seti.less';
-	fileAssociationFile = '../../../seti-ui/styles/components/icons/mapping.less';
-	colorsFile = '../../../seti-ui/styles/ui-variables.less';
+	font = './seti-ui/styles/_fonts/seti/seti.woff';
+	fontMappingsFile = './seti-ui/styles/_fonts/seti.less';
+	fileAssociationFile = './seti-ui/styles/components/icons/mapping.less';
+	colorsFile = './seti-ui/styles/ui-variables.less';
 }
 
 function getCommitSha(repoId) {
@@ -196,50 +198,59 @@ function mergeMapping(to, from, property) {
 	}
 }
 
-function getLanguageMappings() {
-	const langMappings = {};
-	const allExtensions = fs.readdirSync('..');
-	for (let i = 0; i < allExtensions.length; i++) {
-		const dirPath = path.join('..', allExtensions[i], 'package.json');
-		if (fs.existsSync(dirPath)) {
-			const content = fs.readFileSync(dirPath).toString();
-			const jsonContent = JSON.parse(content);
-			const languages = jsonContent.contributes && jsonContent.contributes.languages;
-			if (Array.isArray(languages)) {
-				for (let k = 0; k < languages.length; k++) {
-					const languageId = languages[k].id;
-					if (languageId) {
-						const extensions = languages[k].extensions;
-						const mapping = {};
-						if (Array.isArray(extensions)) {
-							mapping.extensions = extensions.map(function (e) { return e.substr(1).toLowerCase(); });
-						}
-						const filenames = languages[k].filenames;
-						if (Array.isArray(filenames)) {
-							mapping.fileNames = filenames.map(function (f) { return f.toLowerCase(); });
-						}
-						const filenamePatterns = languages[k].filenamePatterns;
-						if (Array.isArray(filenamePatterns)) {
-							mapping.filenamePatterns = filenamePatterns.map(function (f) { return f.toLowerCase(); });
-						}
-						const existing = langMappings[languageId];
+async function getLanguageMappings() {
+	try {
+		const content = fs.readFileSync(`./.lang-mapping.${vscodeVersion}.json`, 'utf-8')
+		return JSON.parse(content)
+	} catch {}
 
-						if (existing) {
-							// multiple contributions to the same language
-							// give preference to the contribution wth the configuration
-							if (languages[k].configuration) {
-								mergeMapping(mapping, existing, 'extensions');
-								mergeMapping(mapping, existing, 'fileNames');
-								mergeMapping(mapping, existing, 'filenamePatterns');
-								langMappings[languageId] = mapping;
-							} else {
-								mergeMapping(existing, mapping, 'extensions');
-								mergeMapping(existing, mapping, 'fileNames');
-								mergeMapping(existing, mapping, 'filenamePatterns');
-							}
-						} else {
+	const res = JSON.parse(await download(`https://api.github.com/repos/microsoft/vscode/contents/extensions?ref=${vscodeVersion}`))
+
+	const langMappings = {};
+	const allExtensions = res.map(r => r.name);
+	for (let i = 0; i < allExtensions.length; i++) {
+		const dirPath = `https://raw.githubusercontent.com/microsoft/vscode/${vscodeVersion}/extensions/${allExtensions[i]}/package.json`;
+		const content = await download(dirPath);
+		console.log('fetching:', allExtensions[i]);
+		await new Promise(resolve => setTimeout(resolve, 20));
+		if (content === '404: Not Found') continue;
+
+		const jsonContent = JSON.parse(content);
+		const languages = jsonContent.contributes && jsonContent.contributes.languages;
+		if (Array.isArray(languages)) {
+			for (let k = 0; k < languages.length; k++) {
+				const languageId = languages[k].id;
+				if (languageId) {
+					const extensions = languages[k].extensions;
+					const mapping = {};
+					if (Array.isArray(extensions)) {
+						mapping.extensions = extensions.map(function (e) { return e.substr(1).toLowerCase(); });
+					}
+					const filenames = languages[k].filenames;
+					if (Array.isArray(filenames)) {
+						mapping.fileNames = filenames.map(function (f) { return f.toLowerCase(); });
+					}
+					const filenamePatterns = languages[k].filenamePatterns;
+					if (Array.isArray(filenamePatterns)) {
+						mapping.filenamePatterns = filenamePatterns.map(function (f) { return f.toLowerCase(); });
+					}
+					const existing = langMappings[languageId];
+
+					if (existing) {
+						// multiple contributions to the same language
+						// give preference to the contribution wth the configuration
+						if (languages[k].configuration) {
+							mergeMapping(mapping, existing, 'extensions');
+							mergeMapping(mapping, existing, 'fileNames');
+							mergeMapping(mapping, existing, 'filenamePatterns');
 							langMappings[languageId] = mapping;
+						} else {
+							mergeMapping(existing, mapping, 'extensions');
+							mergeMapping(existing, mapping, 'fileNames');
+							mergeMapping(existing, mapping, 'filenamePatterns');
 						}
+					} else {
+						langMappings[languageId] = mapping;
 					}
 				}
 			}
@@ -248,6 +259,7 @@ function getLanguageMappings() {
 	for (const languageId in nonBuiltInLanguages) {
 		langMappings[languageId] = nonBuiltInLanguages[languageId];
 	}
+	fs.writeFileSync(`.lang-mapping.${vscodeVersion}.json`, JSON.stringify(langMappings), 'utf-8')
 	return langMappings;
 }
 
@@ -343,7 +355,7 @@ exports.update = function () {
 		}
 
 		return download(fileAssociationFile).then(function (content) {
-			const regex2 = /\.icon-(?:set|partial)\(['"]([\w-\.+]+)['"],\s*['"]([\w-]+)['"],\s*(@[\w-]+)\)/g;
+			const regex2 = /\.icon-(?:set|partial)\(['"]([-\w\.+]+)['"],\s*['"]([-\w]+)['"],\s*(@[-\w]+)\)/g;
 			while ((match = regex2.exec(content)) !== null) {
 				const pattern = match[1];
 				let def = '_' + match[2];
@@ -369,8 +381,9 @@ exports.update = function () {
 					fileName2Def[pattern.toLowerCase()] = def;
 				}
 			}
+			return getLanguageMappings();
+		}).then(function (langMappings) {
 			// replace extensions for languageId
-			const langMappings = getLanguageMappings();
 			for (let lang in langMappings) {
 				const mappings = langMappings[lang];
 				const exts = mappings.extensions || [];
@@ -463,6 +476,3 @@ exports.update = function () {
 if (path.basename(process.argv[1]) === 'update-icon-theme.js') {
 	exports.copyFont().then(() => exports.update());
 }
-
-
-
