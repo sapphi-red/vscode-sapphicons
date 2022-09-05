@@ -1,0 +1,4 @@
+icons/sapphicon-theme.json
+seti-ui/icons/*.svg
+node_modules
+.lang-mapping.*.json

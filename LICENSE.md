@@ -23,6 +23,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## theme-seti
+
 Most files are based on VSCode's icon theme [`theme-seti`](https://github.com/Microsoft/vscode/tree/main/extensions/theme-seti).
 
 MIT License
@@ -48,6 +49,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## seti-ui
+
 Files under `seti-ui` directory is based on [`seti-ui`](https://github.com/jesseweed/seti-ui).
 
 MIT License

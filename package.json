@@ -30,7 +30,8 @@
   "scripts": {
     "create-icons": "gulp icons",
     "update-theme": "node ./build/update-icon-theme.js",
-    "preview": "sirv icons"
+    "preview": "sirv icons",
+    "format": "prettier --cache --write ."
   },
   "devDependencies": {
     "gulp": "^4.0.2",
@@ -41,6 +42,7 @@
     "minimatch": "^5.1.0",
     "node-fetch-native": "^0.1.4",
     "p-queue": "^6.6.2",
+    "prettier": "^2.7.1",
     "sirv-cli": "^2.0.2"
   },
   "bugs": {
