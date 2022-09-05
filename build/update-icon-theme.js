@@ -121,7 +121,6 @@ function downloadBinary(source, dest) {
 	if (source.startsWith('.')) {
 		return copyFile(source, dest);
 	}
-
 	return new Promise((c, e) => {
 		https.get(source, function (response) {
 			switch (response.statusCode) {
@@ -263,11 +262,7 @@ async function getLanguageMappings() {
 	return langMappings;
 }
 
-exports.copyFont = function () {
-	return downloadBinary(font, './icons/seti.woff');
-};
-
-exports.update = function () {
+function update () {
 
 	console.log('Reading from ' + fontMappingsFile);
 	const def2Content = {};
@@ -466,6 +461,6 @@ exports.update = function () {
 	}, console.error);
 };
 
-if (path.basename(process.argv[1]) === 'update-icon-theme.js') {
-	exports.copyFont().then(() => exports.update());
-}
+downloadBinary(font, './icons/seti.woff').then(() => {
+	update()
+})

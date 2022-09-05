@@ -28,10 +28,16 @@
   },
   "icon": "icons/sapphicon-128.png",
   "scripts": {
-    "update": "node ./build/update-icon-theme.js",
+    "create-icons": "gulp icons",
+    "update-theme": "node ./build/update-icon-theme.js",
     "preview": "sirv icons"
   },
   "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-iconfont": "^11.0.1",
+    "gulp-iconfont-css": "^3.0.0",
+    "gulp-svgmin": "^4.1.0",
+    "lodash": "^4.17.21",
     "minimatch": "^5.1.0",
     "sirv-cli": "^2.0.2"
   },
