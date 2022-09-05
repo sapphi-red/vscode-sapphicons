@@ -532,6 +532,9 @@
 // APACHE
 ("mime.types", "config", @grey-light)
 
+// CADDY
+("Caddyfile", "caddy", @green)
+
 // CI
 ("Jenkinsfile", "jenkins", @red)
 
