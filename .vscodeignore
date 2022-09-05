@@ -2,3 +2,4 @@ build/**
 cgmanifest.json
 icons/preview.html
 CONTRIBUTING.md
+.lang-mapping.*.json

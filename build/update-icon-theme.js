@@ -339,7 +339,7 @@ exports.update = function () {
 			version: 'https://github.com/jesseweed/seti-ui/commit/' + info.commitSha,
 		};
 
-		const path = './icons/vs-seti-icon-theme.json';
+		const path = './icons/sapphicon-theme.json';
 		fs.writeFileSync(path, JSON.stringify(res, null, '\t'));
 		console.log('written ' + path);
 	}
@@ -454,13 +454,6 @@ exports.update = function () {
 				return getCommitSha('jesseweed/seti-ui').then(function (info) {
 					try {
 						writeFileIconContent(info);
-
-						const cgmanifestPath = './cgmanifest.json';
-						const cgmanifest = fs.readFileSync(cgmanifestPath).toString();
-						const cgmanifestContent = JSON.parse(cgmanifest);
-						cgmanifestContent['registrations'][0]['component']['git']['commitHash'] = info.commitSha;
-						fs.writeFileSync(cgmanifestPath, JSON.stringify(cgmanifestContent, null, '\t'));
-						console.log('updated ' + cgmanifestPath);
 
 						console.log('Updated to jesseweed/seti-ui@' + info.commitSha.substr(0, 7) + ' (' + info.commitDate.substr(0, 10) + ')');
 

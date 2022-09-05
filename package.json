@@ -1,34 +1,46 @@
 {
-  "name": "vscode-theme-seti",
-  "private": true,
-  "version": "1.0.0",
-  "displayName": "%displayName%",
-  "description": "%description%",
-  "publisher": "vscode",
+  "name": "vscode-sapphicon",
+  "version": "0.1.0",
+  "publisher": "sapphi-red",
+  "engines": {
+    "vscode": "^1.71.0"
+  },
   "license": "MIT",
-  "icon": "icons/seti-circular-128x128.png",
+  "displayName": "vscode-sapphicon",
+  "description": "",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "icons",
+    "theme",
+    "icon-theme"
+  ],
+  "preview": true,
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "sapphicon",
+        "label": "sapphicon",
+        "path": "./icons/sapphicon-theme.json"
+      }
+    ]
+  },
+  "icon": "icons/sapphicon-128.png",
   "scripts": {
     "update": "node ./build/update-icon-theme.js",
     "preview": "sirv icons"
   },
-  "engines": {
-    "vscode": "*"
-  },
-  "contributes": {
-    "iconThemes": [
-      {
-        "id": "vs-seti",
-        "label": "%themeLabel%",
-        "path": "./icons/vs-seti-icon-theme.json"
-      }
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/microsoft/vscode.git"
-  },
   "devDependencies": {
     "minimatch": "^5.1.0",
     "sirv-cli": "^2.0.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/sapphi-red/vscode-sapphicons/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sapphi-red/vscode-sapphicons.git"
+  },
+  "homepage": "https://github.com/sapphi-red/vscode-sapphicons"
 }
