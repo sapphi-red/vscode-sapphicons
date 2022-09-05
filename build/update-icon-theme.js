@@ -51,10 +51,10 @@ const inheritIconFromLanguage = {
 	"blade": 'php'
 }
 
-const font = './seti-ui/styles/_fonts/seti/seti.woff';
-const fontMappingsFile = './seti-ui/styles/_fonts/seti.txt';
-const fileAssociationFile = './seti-ui/styles/components/icons/mapping.less';
-const colorsFile = './seti-ui/styles/ui-variables.less';
+const font = './seti-ui/fonts/seti/seti.woff';
+const fontMappingsFile = './seti-ui/fonts/seti.txt';
+const fileAssociationFile = './seti-ui/mapping.txt';
+const colorsFile = './seti-ui/colors.txt';
 
 function getCommitSha() {
 	return execSync('git rev-parse HEAD').toString().trim()
@@ -240,8 +240,11 @@ async function update () {
 	}
 
 	const fileAssociationContent = fs.readFileSync(fileAssociationFile, 'utf8')
-	const regex2 = /\.icon-(?:set|partial)\(['"]([-\w\.+]+)['"],\s*['"]([-\w]+)['"],\s*(@[-\w]+)\)/g;
-	while ((match = regex2.exec(fileAssociationContent)) !== null) {
+	const regex2 = /^\(['"]([-\w\.+]+)['"],\s*['"]([-\w]+)['"],\s*(@[-\w]+)\)$/;
+	for (const line of fileAssociationContent.split('\n')) {
+		const match = line.match(regex2)
+		if (!match) continue
+
 		const pattern = match[1];
 		let def = '_' + match[2];
 		const colorId = match[3];
@@ -330,10 +333,12 @@ async function update () {
 	}
 
 	const colorsContent = fs.readFileSync(colorsFile, 'utf8')
-	const regex3 = /(@[\w-]+):\s*(#[0-9a-z]+)/g;
-	while ((match = regex3.exec(colorsContent)) !== null) {
-		colorId2Value[match[1]] = match[2];
+	for (const line of colorsContent.split('\n')) {
+		if (line.startsWith('//') || line.trim() === '') continue
+		const [name, value] = line.trim().split(':')
+		colorId2Value['@' + name.trim()] = value.trim();
 	}
+
 	const commitSha = getCommitSha()
 	try {
 		writeFileIconContent(commitSha);

@@ -1,0 +1,705 @@
+// 1C:Enterprise
+(".bsl", "bsl", @red)
+(".mdo", "mdo", @red)
+
+// Apex
+(".cls", "salesforce", @blue)
+(".apex", "salesforce", @blue)
+
+// Assembly
+(".asm", "asm", @red)
+(".s", "asm", @red)
+
+// Bicep
+(".bicep", "bicep", @blue)
+
+// Bazel
+(".bzl", "bazel", @green)
+(".bazel", "bazel", @green)
+(".BUILD", "bazel", @green)
+(".WORKSPACE", "bazel", @green)
+(".bazelignore", "bazel", @green)
+(".bazelversion", "bazel", @green)
+
+// C
+(".c", "c", @blue)
+(".h", "c", @purple)
+(".m", "c", @yellow)
+
+// C♯
+(".cs", "c-sharp", @blue)
+(".cshtml", "html", @blue)
+(".aspx", "html", @blue)
+(".ascx", "html", @green)
+(".asax", "html", @yellow)
+(".master", "html", @yellow)
+
+// C++
+(".cc", "cpp", @blue)
+(".cpp", "cpp", @blue)
+(".cxx", "cpp", @blue)
+(".c++", "cpp", @blue)
+(".hh", "cpp", @purple)
+(".hpp", "cpp", @purple)
+(".hxx", "cpp", @purple)
+(".h++", "cpp", @purple)
+(".mm", "cpp", @yellow)
+
+// Clojure
+(".clj", "clojure", @green)
+(".cljs", "clojure", @green)
+(".cljc", "clojure", @green)
+(".edn", "clojure", @blue)
+
+// COLDFUSION
+(".cfc", "coldfusion", @blue)
+(".cfm", "coldfusion", @blue)
+
+// COFFEESCRIPT
+(".coffee", "coffee", @yellow)
+(".litcoffee", "coffee", @yellow)
+
+// CONFIG
+(".config", "config", @grey-light)
+(".cfg", "config", @grey-light)
+(".conf", "config", @grey-light)
+
+// CRYSTAL
+(".cr", "crystal", @white)
+(".ecr", "crystal_embedded", @white)
+(".slang", "crystal_embedded", @white)
+
+// CSON
+(".cson", "json", @yellow)
+
+// CSS
+(".css", "css", @blue)
+(".css.map", "css", @blue)
+(".sss", "css", @blue)
+
+// CSV
+(".csv", "csv", @green)
+(".xls", "xls", @green)
+(".xlsx", "xls", @green)
+
+// CUDA
+(".cu", "cu", @green)
+(".cuh", "cu", @purple)
+(".hu", "cu", @purple)
+
+// CAKE
+(".cake", "cake", @red)
+(".ctp", "cake_php", @red)
+
+// D
+(".d", "d", @red)
+
+// DOC
+(".doc", "word", @blue)
+(".docx", "word", @blue)
+
+// EJS
+(".ejs", "ejs", @yellow)
+
+// ELIXIR
+(".ex", "elixir", @purple)
+(".exs", "elixir_script", @purple)
+("mix", "hex", @red)
+
+// ELM
+(".elm", "elm", @blue)
+
+// FAVICON
+(".ico", "favicon", @yellow)
+
+// F#
+(".fs", "f-sharp", @blue)
+(".fsx", "f-sharp", @blue)
+
+// GITIGNORE
+(".gitignore", "git", @ignore)
+(".gitconfig", "git", @ignore)
+(".gitkeep", "git", @ignore)
+(".gitattributes", "git", @ignore)
+(".gitmodules", "git", @ignore)
+("COMMIT_EDITMSG", "git", @ignore)
+("MERGE_MSG", "git", @ignore)
+
+// GO
+(".go", "go2", @blue)
+(".slide", "go", @blue)
+(".article", "go", @blue)
+
+// GODOT
+(".gd", "godot", @blue)
+(".godot", "godot", @red)
+(".tres", "godot", @yellow)
+(".tscn", "godot", @purple)
+
+// GRADLE
+(".gradle", "gradle", @blue)
+
+// GRAILS
+(".groovy", "grails", @green)
+(".gsp", "grails", @green)
+
+// GRAPHQL
+(".gql", "graphql", @pink)
+(".graphql", "graphql", @pink)
+(".graphqls", "graphql", @pink)
+
+// HACK
+(".hack", "hacklang", @orange)
+
+// HAML
+(".haml", "haml", @red)
+
+// HANDLEBARS
+(".handlebars", "mustache", @orange)
+(".hbs", "mustache", @orange)
+(".hjs", "mustache", @orange)
+
+// HASKELL
+(".hs", "haskell", @purple)
+(".lhs", "haskell", @purple)
+
+// HAXE
+(".hx", "haxe", @orange)
+(".hxs", "haxe", @yellow)
+(".hxp", "haxe", @blue)
+(".hxml", "haxe", @purple)
+
+// HTML
+(".html", "html", @orange)
+
+// JADE
+(".jade", "jade", @red)
+
+// JAVA
+(".java", "java", @red)
+(".class", "java", @blue)
+(".classpath", "java", @red)
+(".properties", "java", @red)
+
+// JAVASCRIPT
+(".js", "javascript", @yellow)
+(".js.map", "javascript", @yellow)
+(".spec.js", "javascript", @orange)
+(".test.js", "javascript", @orange)
+(".es", "javascript", @yellow)
+(".es5", "javascript", @yellow)
+(".es6", "javascript", @yellow)
+(".es7", "javascript", @yellow)
+
+// JINJA
+(".jinja", "jinja", @red)
+(".jinja2", "jinja", @red)
+
+// JSON
+(".json", "json", @yellow)
+
+// JULIA
+(".jl", "julia", @purple)
+
+// KARMA
+("karma.conf.js", "karma", @green)
+("karma.conf.coffee", "karma", @green)
+
+// KOTLIN
+('.kt', 'kotlin', @orange)
+('.kts', 'kotlin', @orange)
+
+// DART
+(".dart", "dart", @blue)
+
+// LESS
+(".less", "less", @blue)
+
+// LIQUID
+(".liquid", "liquid", @green)
+
+// LIVESCRIPT
+(".ls", "livescript", @blue)
+
+// LUA
+(".lua", "lua", @blue)
+
+// MARKDOWN
+(".markdown", "markdown", @blue)
+(".md", "markdown", @blue)
+
+// ARGDOWN
+(".argdown", "argdown", @blue)
+(".ad", "argdown", @blue)
+
+// README
+("README.md", "info", @blue)
+("README.txt", "info", @blue)
+("README", "info", @blue)
+
+// CHANGELOG
+('CHANGELOG.md', 'clock', @blue)
+('CHANGELOG.txt', 'clock', @blue)
+('CHANGELOG', 'clock', @blue)
+('CHANGES.md', 'clock', @blue)
+('CHANGES.txt', 'clock', @blue)
+('CHANGES', 'clock', @blue)
+('VERSION.md', 'clock', @blue)
+('VERSION.txt', 'clock', @blue)
+('VERSION', 'clock', @blue)
+
+// MAVEN
+("mvnw", "maven", @red)
+
+// MUSTACHE
+(".mustache", "mustache", @orange)
+(".stache", "mustache", @orange)
+
+// NIM
+(".nim", "nim", @yellow)
+(".nims", "nim", @yellow)
+
+// NOTEBOOKS
+(".github-issues", "github", @white)
+(".ipynb", "notebook", @blue)
+
+// NPM
+(".njk", "nunjucks", @green)
+(".nunjucks", "nunjucks", @green)
+(".nunjs", "nunjucks", @green)
+(".nunj", "nunjucks", @green)
+(".njs", "nunjucks", @green)
+(".nj", "nunjucks", @green)
+
+// NPM
+(".npm-debug.log", "npm", @ignore)
+(".npmignore", "npm", @red)
+(".npmrc", "npm", @red)
+
+// OCAML
+(".ml", "ocaml", @orange)
+(".mli", "ocaml", @orange)
+(".cmx", "ocaml", @orange)
+(".cmxa", "ocaml", @orange)
+
+// ODATA
+(".odata", "odata", @orange)
+
+// PERL
+(".pl", "perl", @blue)
+
+// PHP
+(".php", "php", @purple)
+(".php.inc", "php", @purple)
+
+// PIPELINE
+(".pipeline", "pipeline", @orange)
+
+// PLANNING
+('.pddl', 'pddl', @purple)
+('.plan', 'plan', @green)
+('.happenings', 'happenings', @blue)
+
+// POWERSHELL
+(".ps1", "powershell", @blue)
+(".psd1", "powershell", @blue)
+(".psm1", "powershell", @blue)
+
+// PRISMA
+(".prisma", "prisma", @blue)
+
+// PUG
+(".pug", "pug", @red)
+
+// PUPPET .pp
+(".pp", "puppet", @yellow)
+(".epp", "puppet", @yellow)
+
+// PURESCRIPT .purs
+(".purs", "purescript", @white)
+
+// PYTHON
+(".py", "python", @blue)
+
+// REACT
+(".jsx", "react", @blue)
+(".spec.jsx", "react", @orange)
+(".test.jsx", "react", @orange)
+(".cjsx", "react", @blue)
+(".spec.tsx", "react", @orange)
+(".test.tsx", "react", @orange)
+
+// REASONML
+(".re", "reasonml", @red)
+
+// ReScript
+(".res", "rescript", @red)
+(".resi", "rescript", @pink)
+
+// R
+('.R', 'R', @blue)
+('.rmd', 'R', @blue)
+
+// RUBY
+(".rb", "ruby", @red)
+("Gemfile", "ruby", @red)
+("gemfile", "ruby", @red)
+(".erb", "html_erb", @red)
+(".erb.html", "html_erb", @red)
+(".html.erb", "html_erb", @red)
+
+// RUST
+(".rs", "rust", @grey-light)
+
+// SASS
+(".sass", "sass", @pink)
+(".scss", "sass", @pink)
+
+// SPRING
+(".springBeans", "spring", @green)
+
+// SLIM
+(".slim", "slim", @orange)
+
+// SMARTY
+(".smarty.tpl", "smarty", @yellow)
+(".tpl", "smarty", @yellow)
+
+// SBT
+(".sbt", "sbt", @blue)
+
+// SCALA
+(".scala", "scala", @red)
+
+// SCALA
+(".sol", "ethereum", @blue)
+
+// STYLUS
+(".styl", "stylus", @green)
+
+// SVELTE
+(".svelte", "svelte", @red)
+
+// SWIFT
+(".swift", "swift", @orange)
+
+// SQL
+(".sql", "db", @pink)
+
+// SOQL
+(".soql", "db", @blue)
+
+// TERRAFORM
+(".tf", "terraform", @purple)
+(".tf.json", "terraform", @purple)
+(".tfvars", "terraform", @purple)
+(".tfvars.json", "terraform", @purple)
+
+// TEX
+(".tex", "tex", @blue)
+(".sty", "tex", @yellow)
+(".dtx", "tex", @orange)
+(".ins", "tex", @white)
+
+// TEXT
+(".txt", "default", @white)
+
+// TOML
+(".toml", "config", @grey-light)
+
+// TWIG
+(".twig", "twig", @green)
+
+// TYPESCRIPT
+(".ts", "typescript", @blue)
+(".tsx", "typescript", @blue)
+(".spec.ts", "typescript", @orange)
+(".test.ts", "typescript", @orange)
+
+// TSCONFIG
+("tsconfig.json", "tsconfig", @blue)
+
+// VALA
+(".vala", "vala", @grey-light)
+(".vapi", "vala", @grey-light)
+
+// Visualforce
+(".component", "html", @orange)
+
+// VUE
+(".vue", "vue", @green)
+
+// WEBASSEMBLY
+('.wasm', 'wasm', @purple)
+('.wat', 'wat', @purple)
+
+// XML
+(".xml", "xml", @orange)
+
+// YML
+('.yml', 'yml', @purple)
+('.yaml', 'yml', @purple)
+
+// SWAGGER
+('swagger.json', 'json', @green)
+('swagger.yml', 'json', @green)
+('swagger.yaml', 'json', @green)
+
+// PROLOG
+('.pro', 'prolog', @orange)
+
+// ZIG
+(".zig", "zig", @orange)
+
+// - - - - - - - - - - - - - - - - - - -
+//  GENERIC FILE TYPES - EXTENSION BASED
+// - - - - - - - - - - - - - - - - - - -
+
+// ARCHIVES
+(".jar", "zip", @red)
+(".zip", "zip", @grey-light)
+(".wgt", "wgt", @blue)
+
+// ADOBE FILE
+(".ai", "illustrator", @yellow)
+(".psd", "photoshop", @blue)
+(".pdf", "pdf", @red)
+
+// FONT FILES
+(".eot", "font", @red)
+(".ttf", "font", @red)
+(".woff", "font", @red)
+(".woff2", "font", @red)
+
+// IMAGE FILES
+(".avif", "image", @purple)
+(".gif", "image", @purple)
+(".jpg", "image", @purple)
+(".jpeg", "image", @purple)
+(".png", "image", @purple)
+(".pxm", "image", @purple)
+(".svg", "svg", @purple)
+(".svgx", "image", @purple)
+(".tiff", "image", @purple)
+(".webp", "image", @purple)
+
+// SUBLIME
+(".sublime-project", "sublime", @orange)
+(".sublime-workspace", "sublime", @orange)
+
+// VS CODE
+(".code-search", "code-search", @purple)
+
+// SHELL
+(".sh", "shell", @green)
+(".zsh", "shell", @green)
+(".fish", "shell", @green)
+(".zshrc", "shell", @green)
+(".bashrc", "shell", @green)
+
+// VIDEO FILES
+(".mov", "video", @pink)
+(".ogv", "video", @pink)
+(".webm", "video", @pink)
+(".avi", "video", @pink)
+(".mpg", "video", @pink)
+(".mp4", "video", @pink)
+
+// AUDIO FILES
+('.mp3', 'audio', @purple)
+('.ogg', 'audio', @purple)
+('.wav', 'audio', @purple)
+('.flac', 'audio', @purple)
+
+// 3D files
+('.3ds', 'svg', @blue)
+('.3dm', 'svg', @blue)
+('.stl', 'svg', @blue)
+('.obj', 'svg', @blue)
+('.dae', 'svg', @blue)
+
+// WINDOWS
+(".bat", "windows", @blue)
+(".cmd", "windows", @blue)
+
+// - - - - - - - - -
+//  NAME BASED ICONS
+// - - - - - - - - -
+
+// APACHE
+("mime.types", "config", @grey-light)
+
+// CI
+("Jenkinsfile", "jenkins", @red)
+
+// BABEL
+(".babelrc", "babel", @yellow)
+(".babelrc.js", "babel", @yellow)
+(".babelrc.cjs", "babel", @yellow)
+("babel.config.js", "babel", @yellow)
+("babel.config.json", "babel", @yellow)
+("babel.config.cjs", "babel", @yellow)
+
+// BAZEL
+("BUILD", "bazel", @green)
+("BUILD.bazel", "bazel", @green)
+("WORKSPACE", "bazel", @green)
+("WORKSPACE.bazel", "bazel", @green)
+(".bazelrc", "bazel", @grey)
+
+// BOWER
+("bower.json", "bower", @orange)
+("Bower.json", "bower", @orange)
+(".bowerrc", "bower", @orange)
+
+// BOWER
+("dockerfile", "docker", @blue)
+("Dockerfile", "docker", @blue)
+("DOCKERFILE", "docker", @blue)
+(".dockerignore", "docker", @grey)
+("docker-healthcheck", "docker", @green)
+("docker-compose.yml", "docker", @pink)
+("docker-compose.yaml", "docker", @pink)
+("docker-compose.override.yml", "docker", @pink)
+("docker-compose.override.yaml", "docker", @pink)
+
+// BABEL
+(".codeclimate.yml", "code-climate", @green)
+
+// ESLINT
+(".eslintrc", "eslint", @purple)
+(".eslintrc.js", "eslint", @purple)
+(".eslintrc.cjs", "eslint", @purple)
+(".eslintrc.yaml", "eslint", @purple)
+(".eslintrc.yml", "eslint", @purple)
+(".eslintrc.json", "eslint", @purple)
+(".eslintignore", "eslint", @grey)
+
+// FIREBASE
+(".firebaserc", "firebase", @orange)
+("firebase.json", "firebase", @orange)
+
+// GECKODRIVER
+("geckodriver", "firefox", @orange)
+
+// GITLAB
+(".gitlab-ci.yml", "gitlab", @orange)
+
+// GRUNT
+("Gruntfile.js", "grunt", @orange)
+("gruntfile.babel.js", "grunt", @orange)
+("Gruntfile.babel.js", "grunt", @orange)
+("gruntfile.js", "grunt", @orange)
+("Gruntfile.coffee", "grunt", @orange)
+("gruntfile.coffee", "grunt", @orange)
+
+// GULP
+("GULPFILE", "gulp", @red)
+("Gulpfile", "gulp", @red)
+("gulpfile", "gulp", @red)
+("gulpfile.js", "gulp", @red)
+
+// IONIC
+("ionic.config.json", "ionic", @blue)
+("Ionic.config.json", "ionic", @blue)
+("ionic.project", "ionic", @blue)
+("Ionic.project", "ionic", @blue)
+
+// JSHINT
+(".jshintrc", "javascript", @blue)
+(".jscsrc", "javascript", @blue)
+
+('platformio.ini', 'platformio', @orange)
+
+// ROLLUP
+("rollup.config.js", "rollup", @red)
+
+// SASS LINT
+("sass-lint.yml", "sass", @pink)
+
+// STYLELINT
+('.stylelintrc', 'stylelint', @white)
+('.stylelintrc.json', 'stylelint', @white)
+('.stylelintrc.yaml', 'stylelint', @white)
+('.stylelintrc.yml', 'stylelint', @white)
+('.stylelintrc.js', 'stylelint', @white)
+('.stylelintignore', 'stylelint', @grey)
+('stylelint.config.js', 'stylelint', @white)
+('stylelint.config.cjs', 'stylelint', @white)
+
+// YARN
+("yarn.clean", "yarn", @blue)
+("yarn.lock", "yarn", @blue)
+
+// WEBPACK
+("webpack.config.js", "webpack", @blue)
+("webpack.config.cjs", "webpack", @blue)
+("webpack.config.build.js", "webpack", @blue)
+("webpack.config.build.cjs", "webpack", @blue)
+("webpack.common.js", "webpack", @blue)
+("webpack.common.cjs", "webpack", @blue)
+("webpack.dev.js", "webpack", @blue)
+("webpack.dev.cjs", "webpack", @blue)
+("webpack.prod.js", "webpack", @blue)
+("webpack.prod.cjs", "webpack", @blue)
+
+// MISC SETTING
+(".direnv", "config", @grey-light)
+(".env", "config", @grey-light)
+(".static", "config", @grey-light)
+(".editorconfig", "config", @grey-light)
+(".slugignore", "config", @grey-light)
+(".tmp", "clock", @grey-light)
+(".htaccess", "config", @grey-light)
+(".key", "lock", @green)
+(".cert", "lock", @green)
+(".cer", "lock", @green)
+(".crt", "lock", @green)
+(".pem", "lock", @green)
+
+// LICENSE FILES
+("LICENSE", "license", @yellow)
+("LICENCE", "license", @yellow)
+("LICENSE.txt", "license", @yellow)
+("LICENCE.txt", "license", @yellow)
+("LICENSE.md", "license", @yellow)
+("LICENCE.md", "license", @yellow)
+("COPYING", "license", @yellow)
+("COPYING.txt", "license", @yellow)
+("COPYING.md", "license", @yellow)
+("COMPILING", "license", @orange)
+("COMPILING.txt", "license", @orange)
+("COMPILING.md", "license", @orange)
+("CONTRIBUTING", "license", @red)
+("CONTRIBUTING.txt", "license", @red)
+("CONTRIBUTING.md", "license", @red)
+
+// MAKEFILES
+("MAKEFILE", "makefile", @orange)
+("Makefile", "makefile", @orange)
+("makefile", "makefile", @orange)
+("QMAKEFILE", "makefile", @purple)
+("QMakefile", "makefile", @purple)
+("qmakefile", "makefile", @purple)
+("OMAKEFILE", "makefile", @grey-light)
+("OMakefile", "makefile", @grey-light)
+("omakefile", "makefile", @grey-light)
+("CMAKELISTS.TXT", "makefile", @blue)
+("CMAKELISTS.txt", "makefile", @blue)
+("CMakeLists.txt", "makefile", @blue)
+("cmakelists.txt", "makefile", @blue)
+
+// PROCFILE
+("Procfile", "heroku", @purple)
+
+// TODO
+("TODO", "todo", @seti-primary)
+("TODO.txt", "todo", @seti-primary)
+("TODO.md", "todo", @seti-primary)
+
+// - - - - - - -
+// IGNORED FILES
+// - - - - - - -
+
+("npm-debug.log", "npm_ignored", @ignore)
+(".DS_Store", "ignored", @ignore)

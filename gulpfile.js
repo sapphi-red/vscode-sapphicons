@@ -8,9 +8,9 @@ exports.font = function font () {
   return gulp.src(['./seti-ui/icons/*.svg'])
     .pipe(iconfontCss({
       fontName: fontName,
-      path: './seti-ui/styles/_fonts/_template.txt',
+      path: './seti-ui/fonts/_template.txt',
       targetPath: '../seti.txt',
-      fontPath: './seti-ui/styles/_fonts/seti/'
+      fontPath: './seti-ui/fonts/seti/'
     }))
     .pipe(iconfont({
       normalize: true,
@@ -18,7 +18,7 @@ exports.font = function font () {
       fontName: fontName,
       formats: ['woff']
     }))
-    .pipe(gulp.dest('./seti-ui/styles/_fonts/seti/'));
+    .pipe(gulp.dest('./seti-ui/fonts/seti/'));
 };
 
 exports.svg = function svg () {
