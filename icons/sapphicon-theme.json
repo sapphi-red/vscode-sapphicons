@@ -1781,6 +1781,8 @@
 	},
 	"fileNames": {
 		"mix": "_hex",
+		"commit_editmsg": "_git",
+		"merge_msg": "_git",
 		"karma.conf.js": "_karma",
 		"karma.conf.coffee": "_karma",
 		"readme.md": "_info",
@@ -1939,7 +1941,8 @@
 		"postcss": "_css",
 		"django-html": "_html_3",
 		"blade": "_php",
-		"gitignore": "_git"
+		"gitignore": "_git",
+		"git-rebase": "_git"
 	},
 	"light": {
 		"file": "_default_light",
@@ -2257,10 +2260,13 @@
 			"postcss": "_css_light",
 			"django-html": "_html_3_light",
 			"blade": "_php_light",
-			"gitignore": "_git_light"
+			"gitignore": "_git_light",
+			"git-rebase": "_git_light"
 		},
 		"fileNames": {
 			"mix": "_hex_light",
+			"commit_editmsg": "_git_light",
+			"merge_msg": "_git_light",
 			"karma.conf.js": "_karma_light",
 			"karma.conf.coffee": "_karma_light",
 			"readme.md": "_info_light",
@@ -2339,5 +2345,5 @@
 			"npm-debug.log": "_npm_ignored_light"
 		}
 	},
-	"version": "80500e626d4dab1d372173bef50607287c7990a7"
+	"version": "219dcee5d0326b726bbe1c6cc750b3fb22097ad2"
 }

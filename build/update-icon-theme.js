@@ -47,7 +47,9 @@ const inheritIconFromLanguage = {
   postcss: 'css',
   'django-html': 'html',
   blade: 'php',
-  gitignore: 'git-commit'
+  gitignore: 'git-commit',
+  'git-commit': 'git-commit',
+  'git-rebase': 'git-commit'
 }
 
 const font = './seti-ui/fonts/seti/seti.woff'
