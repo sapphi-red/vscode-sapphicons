@@ -52,7 +52,7 @@ const inheritIconFromLanguage = {
   'git-rebase': 'git-commit'
 }
 
-const font = './seti-ui/fonts/seti/seti.woff'
+const font = './seti-ui/fonts/seti/seti.woff2'
 const fontMappingsFile = './seti-ui/fonts/seti.txt'
 const fileAssociationFile = './seti-ui/mapping.txt'
 const colorsFile = './seti-ui/colors.txt'
@@ -230,7 +230,7 @@ async function update() {
       fonts: [
         {
           id: 'seti',
-          src: [{ path: './seti.woff', format: 'woff' }],
+          src: [{ path: './seti.woff2', format: 'woff2' }],
           weight: 'normal',
           style: 'normal',
           size: '150%'
@@ -385,5 +385,5 @@ async function update() {
   }
 }
 
-fs.copyFileSync(font, './icons/seti.woff')
+fs.copyFileSync(font, './icons/seti.woff2')
 update()

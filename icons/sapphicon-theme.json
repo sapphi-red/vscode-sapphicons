@@ -7,8 +7,8 @@
 			"id": "seti",
 			"src": [
 				{
-					"path": "./seti.woff",
-					"format": "woff"
+					"path": "./seti.woff2",
+					"format": "woff2"
 				}
 			],
 			"weight": "normal",
@@ -2395,5 +2395,5 @@
 			"npm-debug.log": "_npm_ignored_light"
 		}
 	},
-	"version": "3d9de9d140a31ddf934c4efeafc916a0a94c9fba"
+	"version": "b1a8c9e679fbe37d63840b1d0b6a38b1ca110fa4"
 }

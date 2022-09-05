@@ -20,7 +20,7 @@ exports.font = function font() {
         normalize: true,
         fontHeight: 1000,
         fontName: fontName,
-        formats: ['woff']
+        formats: ['woff2']
       })
     )
     .pipe(gulp.dest('./seti-ui/fonts/seti/'))
