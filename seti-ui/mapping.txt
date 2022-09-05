@@ -552,6 +552,9 @@
 ("Bower.json", "bower", @orange)
 (".bowerrc", "bower", @orange)
 
+// BROWSERSLIST
+(".browserslistrc", "browserslist", @yellow)
+
 // BOWER
 ("dockerfile", "docker", @blue)
 ("Dockerfile", "docker", @blue)
