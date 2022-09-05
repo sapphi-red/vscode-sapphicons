@@ -1755,6 +1755,7 @@
 		"eslintrc.yml": "_eslint",
 		"eslintrc.json": "_eslint",
 		"eslintignore": "_eslint_1",
+		"eslintcache": "_eslint_1",
 		"firebaserc": "_firebase",
 		"gitlab-ci.yml": "_gitlab",
 		"jshintrc": "_javascript_2",
@@ -2159,6 +2160,7 @@
 			"eslintrc.yml": "_eslint_light",
 			"eslintrc.json": "_eslint_light",
 			"eslintignore": "_eslint_1_light",
+			"eslintcache": "_eslint_1_light",
 			"firebaserc": "_firebase_light",
 			"gitlab-ci.yml": "_gitlab_light",
 			"jshintrc": "_javascript_2_light",
@@ -2345,5 +2347,5 @@
 			"npm-debug.log": "_npm_ignored_light"
 		}
 	},
-	"version": "219dcee5d0326b726bbe1c6cc750b3fb22097ad2"
+	"version": "60ba32a74c1dc83e12432151b5a597ebf130e4a2"
 }

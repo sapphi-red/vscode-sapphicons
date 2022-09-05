@@ -574,6 +574,7 @@
 (".eslintrc.yml", "eslint", @purple)
 (".eslintrc.json", "eslint", @purple)
 (".eslintignore", "eslint", @grey)
+(".eslintcache", "eslint", @grey)
 
 // FIREBASE
 (".firebaserc", "firebase", @orange)
