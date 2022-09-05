@@ -418,6 +418,9 @@
 (".tsx", "typescript", @blue)
 (".spec.ts", "typescript", @orange)
 (".test.ts", "typescript", @orange)
+(".d.ts", "typescriptdeclaration", @blue)
+(".d.mts", "typescriptdeclaration", @blue)
+(".d.cts", "typescriptdeclaration", @blue)
 
 // TSCONFIG
 ("tsconfig.json", "tsconfig", @blue)
