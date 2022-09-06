@@ -600,6 +600,13 @@
 // BABEL
 (".codeclimate.yml", "code-climate", @green)
 
+// CYPRESS
+("cypress.json", "cypress", @green)
+("cypress.config.ts", "cypress", @green)
+("cypress.config.js", "cypress", @green)
+("cypress.config.mjs", "cypress", @green)
+("cypress.config.cjs", "cypress", @green)
+
 // ESLINT
 (".eslintrc", "eslint", @purple)
 (".eslintrc.js", "eslint", @purple)
@@ -640,11 +647,22 @@
 ("ionic.project", "ionic", @blue)
 ("Ionic.project", "ionic", @blue)
 
+// JEST
+("jest.config.js", "jest", @red)
+("jest.config.ts", "jest", @red)
+("jest.config.mjs", "jest", @red)
+("jest.config.cjs", "jest", @red)
+("jest.config.json", "jest", @red)
+
 // JSHINT
 (".jshintrc", "javascript", @blue)
 (".jscsrc", "javascript", @blue)
 
 ('platformio.ini', 'platformio', @orange)
+
+// PLAYWRIGHT
+("playwright.config.js", "playwright", @green)
+("playwright.config.ts", "playwright", @green)
 
 // PRETTIER
 (".prettierrc", "prettier", @blue)
