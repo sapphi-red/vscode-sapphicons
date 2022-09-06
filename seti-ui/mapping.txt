@@ -680,14 +680,19 @@
 // WEBPACK
 ("webpack.config.js", "webpack", @blue)
 ("webpack.config.cjs", "webpack", @blue)
+("webpack.config.ts", "webpack", @blue)
 ("webpack.config.build.js", "webpack", @blue)
 ("webpack.config.build.cjs", "webpack", @blue)
+("webpack.config.build.ts", "webpack", @blue)
 ("webpack.common.js", "webpack", @blue)
 ("webpack.common.cjs", "webpack", @blue)
+("webpack.common.ts", "webpack", @blue)
 ("webpack.dev.js", "webpack", @blue)
 ("webpack.dev.cjs", "webpack", @blue)
+("webpack.dev.ts", "webpack", @blue)
 ("webpack.prod.js", "webpack", @blue)
 ("webpack.prod.cjs", "webpack", @blue)
+("webpack.prod.ts", "webpack", @blue)
 
 // MISC SETTING
 (".direnv", "config", @grey-light)
