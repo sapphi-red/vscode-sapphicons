@@ -272,6 +272,9 @@
 (".github-issues", "github", @white)
 (".ipynb", "notebook", @blue)
 
+// NETLIFY
+("netlify.toml", "netlify", @blue)
+
 // NPM
 (".njk", "nunjucks", @green)
 (".nunjucks", "nunjucks", @green)
@@ -440,6 +443,10 @@
 
 // Visualforce
 (".component", "html", @orange)
+
+// VERCEL
+("vercel.json", "vercel", @white)
+("now.json", "vercel", @white)
 
 // VUE
 (".vue", "vue", @green)
