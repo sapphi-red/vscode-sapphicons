@@ -109,6 +109,9 @@
 // ELM
 (".elm", "elm", @blue)
 
+// EXCALIDRAW
+(".excalidraw", "excalidraw", @white)
+
 // FAVICON
 (".ico", "favicon", @yellow)
 
