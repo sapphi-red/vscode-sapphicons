@@ -889,6 +889,22 @@
 			"fontCharacter": "\\E05C",
 			"fontColor": "#cc3e44"
 		},
+		"_license_3_light": {
+			"fontCharacter": "\\E05C",
+			"fontColor": "#9068b0"
+		},
+		"_license_3": {
+			"fontCharacter": "\\E05C",
+			"fontColor": "#a074c4"
+		},
+		"_license_4_light": {
+			"fontCharacter": "\\E05C",
+			"fontColor": "#7fae42"
+		},
+		"_license_4": {
+			"fontCharacter": "\\E05C",
+			"fontColor": "#8dc149"
+		},
 		"_liquid_light": {
 			"fontCharacter": "\\E05D",
 			"fontColor": "#7fae42"
@@ -1982,9 +1998,18 @@
 		"compiling": "_license_1",
 		"compiling.txt": "_license_1",
 		"compiling.md": "_license_1",
+		"install": "_license_1",
+		"install.txt": "_license_1",
+		"install.md": "_license_1",
 		"contributing": "_license_2",
 		"contributing.txt": "_license_2",
 		"contributing.md": "_license_2",
+		"code_of_conduct": "_license_3",
+		"code_of_conduct.txt": "_license_3",
+		"code_of_conduct.md": "_license_3",
+		"security": "_license_4",
+		"security.txt": "_license_4",
+		"security.md": "_license_4",
 		"qmakefile": "_makefile_1",
 		"omakefile": "_makefile_2",
 		"cmakelists.txt": "_makefile_3",
@@ -2503,9 +2528,18 @@
 			"compiling": "_license_1_light",
 			"compiling.txt": "_license_1_light",
 			"compiling.md": "_license_1_light",
+			"install": "_license_1_light",
+			"install.txt": "_license_1_light",
+			"install.md": "_license_1_light",
 			"contributing": "_license_2_light",
 			"contributing.txt": "_license_2_light",
 			"contributing.md": "_license_2_light",
+			"code_of_conduct": "_license_3_light",
+			"code_of_conduct.txt": "_license_3_light",
+			"code_of_conduct.md": "_license_3_light",
+			"security": "_license_4_light",
+			"security.txt": "_license_4_light",
+			"security.md": "_license_4_light",
 			"qmakefile": "_makefile_1_light",
 			"omakefile": "_makefile_2_light",
 			"cmakelists.txt": "_makefile_3_light",
@@ -2513,5 +2547,5 @@
 			"npm-debug.log": "_npm_ignored_light"
 		}
 	},
-	"version": "e81686bf30005bceff8ee48db3dba8fd11a140a5"
+	"version": "5df68abfc9b4ec5d873437c2a37dbf696da58b2c"
 }

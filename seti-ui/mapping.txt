@@ -721,9 +721,18 @@
 ("COMPILING", "license", @orange)
 ("COMPILING.txt", "license", @orange)
 ("COMPILING.md", "license", @orange)
+("INSTALL", "license", @orange)
+("INSTALL.txt", "license", @orange)
+("INSTALL.md", "license", @orange)
 ("CONTRIBUTING", "license", @red)
 ("CONTRIBUTING.txt", "license", @red)
 ("CONTRIBUTING.md", "license", @red)
+("CODE_OF_CONDUCT", "license", @purple)
+("CODE_OF_CONDUCT.txt", "license", @purple)
+("CODE_OF_CONDUCT.md", "license", @purple)
+("SECURITY", "license", @green)
+("SECURITY.txt", "license", @green)
+("SECURITY.md", "license", @green)
 
 // MAKEFILES
 ("MAKEFILE", "makefile", @orange)
