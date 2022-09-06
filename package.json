@@ -1,12 +1,12 @@
 {
-  "name": "vscode-sapphicon",
+  "name": "vscode-sapphicons",
   "version": "0.1.2",
   "publisher": "sapphi-red",
   "engines": {
     "vscode": "^1.71.0"
   },
   "license": "MIT",
-  "displayName": "vscode-sapphicon",
+  "displayName": "vscode-sapphicons",
   "description": "",
   "categories": [
     "Themes"
@@ -20,13 +20,13 @@
   "contributes": {
     "iconThemes": [
       {
-        "id": "sapphicon",
-        "label": "sapphicon",
-        "path": "./icons/sapphicon-theme.json"
+        "id": "sapphicons",
+        "label": "sapphicons",
+        "path": "./icons/sapphicons-theme.json"
       }
     ]
   },
-  "icon": "icons/sapphicon-128.png",
+  "icon": "icons/sapphicons-128.png",
   "scripts": {
     "create-icons": "gulp icons",
     "update-theme": "node ./build/update-icon-theme.js",

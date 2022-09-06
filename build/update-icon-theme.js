@@ -252,7 +252,7 @@ async function update() {
       version: commitSha
     }
 
-    const path = './icons/sapphicon-theme.json'
+    const path = './icons/sapphicons-theme.json'
     fs.writeFileSync(path, JSON.stringify(res, null, '\t'))
     console.log('written ' + path)
   }

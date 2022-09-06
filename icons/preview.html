@@ -51,7 +51,7 @@
     </style>
     <script>
       function fetchThemeFile() {
-        return fetch('./sapphicon-theme.json').then(res => res.json())
+        return fetch('./sapphicons-theme.json').then(res => res.json())
       }
       function generateColumn(label, style, associations, htmContent) {
         htmContent.push('<div class=' + style + '>' + label)
