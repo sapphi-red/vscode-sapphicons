@@ -669,6 +669,9 @@
 // SASS LINT
 ("sass-lint.yml", "sass", @pink)
 
+// SNAPSHOT FILE
+(".snap", "snapshot", @white)
+
 // STYLELINT
 ('.stylelintrc', 'stylelint', @white)
 ('.stylelintrc.json', 'stylelint', @white)
