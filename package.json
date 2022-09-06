@@ -31,7 +31,9 @@
     "create-icons": "gulp icons",
     "update-theme": "node ./build/update-icon-theme.js",
     "preview": "sirv --dev icons",
-    "format": "prettier --cache --write ."
+    "format": "prettier --cache --write .",
+    "vscode:package": "vsce package",
+    "vscode:publish": "vsce publish"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
@@ -43,7 +45,8 @@
     "node-fetch-native": "^0.1.4",
     "p-queue": "^6.6.2",
     "prettier": "^2.7.1",
-    "sirv-cli": "^2.0.2"
+    "sirv-cli": "^2.0.2",
+    "vsce": "^2.11.0"
   },
   "bugs": {
     "url": "https://github.com/sapphi-red/vscode-sapphicons/issues"
