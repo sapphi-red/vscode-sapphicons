@@ -448,6 +448,12 @@
 ("vercel.json", "vercel", @white)
 ("now.json", "vercel", @white)
 
+// VERSION
+(".node-version", "version", @white)
+(".go-version", "version", @white)
+(".python-version", "version", @white)
+(".ruby-version", "version", @white)
+
 // VUE
 (".vue", "vue", @green)
 

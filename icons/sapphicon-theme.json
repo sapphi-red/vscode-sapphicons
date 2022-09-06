@@ -1532,124 +1532,132 @@
 			"fontCharacter": "\\E0A3",
 			"fontColor": "#d4d7d6"
 		},
-		"_video_light": {
+		"_version_light": {
 			"fontCharacter": "\\E0A4",
+			"fontColor": "#bfc2c1"
+		},
+		"_version": {
+			"fontCharacter": "\\E0A4",
+			"fontColor": "#d4d7d6"
+		},
+		"_video_light": {
+			"fontCharacter": "\\E0A5",
 			"fontColor": "#dd4b78"
 		},
 		"_video": {
-			"fontCharacter": "\\E0A4",
+			"fontCharacter": "\\E0A5",
 			"fontColor": "#f55385"
 		},
 		"_vue_light": {
-			"fontCharacter": "\\E0A5",
+			"fontCharacter": "\\E0A6",
 			"fontColor": "#7fae42"
 		},
 		"_vue": {
-			"fontCharacter": "\\E0A5",
+			"fontCharacter": "\\E0A6",
 			"fontColor": "#8dc149"
 		},
 		"_wasm_light": {
-			"fontCharacter": "\\E0A6",
+			"fontCharacter": "\\E0A7",
 			"fontColor": "#9068b0"
 		},
 		"_wasm": {
-			"fontCharacter": "\\E0A6",
+			"fontCharacter": "\\E0A7",
 			"fontColor": "#a074c4"
 		},
 		"_wat_light": {
-			"fontCharacter": "\\E0A7",
+			"fontCharacter": "\\E0A8",
 			"fontColor": "#9068b0"
 		},
 		"_wat": {
-			"fontCharacter": "\\E0A7",
+			"fontCharacter": "\\E0A8",
 			"fontColor": "#a074c4"
 		},
 		"_webpack_light": {
-			"fontCharacter": "\\E0A8",
+			"fontCharacter": "\\E0A9",
 			"fontColor": "#498ba7"
 		},
 		"_webpack": {
-			"fontCharacter": "\\E0A8",
+			"fontCharacter": "\\E0A9",
 			"fontColor": "#519aba"
 		},
 		"_wgt_light": {
-			"fontCharacter": "\\E0A9",
+			"fontCharacter": "\\E0AA",
 			"fontColor": "#498ba7"
 		},
 		"_wgt": {
-			"fontCharacter": "\\E0A9",
+			"fontCharacter": "\\E0AA",
 			"fontColor": "#519aba"
 		},
 		"_windows_light": {
-			"fontCharacter": "\\E0AA",
+			"fontCharacter": "\\E0AB",
 			"fontColor": "#498ba7"
 		},
 		"_windows": {
-			"fontCharacter": "\\E0AA",
+			"fontCharacter": "\\E0AB",
 			"fontColor": "#519aba"
 		},
 		"_word_light": {
-			"fontCharacter": "\\E0AB",
+			"fontCharacter": "\\E0AC",
 			"fontColor": "#498ba7"
 		},
 		"_word": {
-			"fontCharacter": "\\E0AB",
+			"fontCharacter": "\\E0AC",
 			"fontColor": "#519aba"
 		},
 		"_xls_light": {
-			"fontCharacter": "\\E0AC",
+			"fontCharacter": "\\E0AD",
 			"fontColor": "#7fae42"
 		},
 		"_xls": {
-			"fontCharacter": "\\E0AC",
+			"fontCharacter": "\\E0AD",
 			"fontColor": "#8dc149"
 		},
 		"_xml_light": {
-			"fontCharacter": "\\E0AD",
+			"fontCharacter": "\\E0AE",
 			"fontColor": "#cc6d2e"
 		},
 		"_xml": {
-			"fontCharacter": "\\E0AD",
+			"fontCharacter": "\\E0AE",
 			"fontColor": "#e37933"
 		},
 		"_yarn_light": {
-			"fontCharacter": "\\E0AE",
+			"fontCharacter": "\\E0AF",
 			"fontColor": "#455155"
 		},
 		"_yarn": {
-			"fontCharacter": "\\E0AE",
+			"fontCharacter": "\\E0AF",
 			"fontColor": "#4d5a5e"
 		},
 		"_yml_light": {
-			"fontCharacter": "\\E0AF",
+			"fontCharacter": "\\E0B0",
 			"fontColor": "#9068b0"
 		},
 		"_yml": {
-			"fontCharacter": "\\E0AF",
+			"fontCharacter": "\\E0B0",
 			"fontColor": "#a074c4"
 		},
 		"_zig_light": {
-			"fontCharacter": "\\E0B0",
+			"fontCharacter": "\\E0B1",
 			"fontColor": "#cc6d2e"
 		},
 		"_zig": {
-			"fontCharacter": "\\E0B0",
+			"fontCharacter": "\\E0B1",
 			"fontColor": "#e37933"
 		},
 		"_zip_light": {
-			"fontCharacter": "\\E0B1",
+			"fontCharacter": "\\E0B2",
 			"fontColor": "#b8383d"
 		},
 		"_zip": {
-			"fontCharacter": "\\E0B1",
+			"fontCharacter": "\\E0B2",
 			"fontColor": "#cc3e44"
 		},
 		"_zip_1_light": {
-			"fontCharacter": "\\E0B1",
+			"fontCharacter": "\\E0B2",
 			"fontColor": "#627379"
 		},
 		"_zip_1": {
-			"fontCharacter": "\\E0B1",
+			"fontCharacter": "\\E0B2",
 			"fontColor": "#6d8086"
 		}
 	},
@@ -1815,6 +1823,10 @@
 		"vala": "_vala",
 		"vapi": "_vala",
 		"component": "_html_3",
+		"node-version": "_version",
+		"go-version": "_version",
+		"python-version": "_version",
+		"ruby-version": "_version",
 		"vue": "_vue",
 		"wasm": "_wasm",
 		"wat": "_wat",
@@ -2264,6 +2276,10 @@
 			"vala": "_vala_light",
 			"vapi": "_vala_light",
 			"component": "_html_3_light",
+			"node-version": "_version_light",
+			"go-version": "_version_light",
+			"python-version": "_version_light",
+			"ruby-version": "_version_light",
 			"vue": "_vue_light",
 			"wasm": "_wasm_light",
 			"wat": "_wat_light",
@@ -2547,5 +2563,5 @@
 			"npm-debug.log": "_npm_ignored_light"
 		}
 	},
-	"version": "5df68abfc9b4ec5d873437c2a37dbf696da58b2c"
+	"version": "795337fddd7d223b0f97c71e12067e48910d33f8"
 }
