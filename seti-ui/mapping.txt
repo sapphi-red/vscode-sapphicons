@@ -240,6 +240,12 @@
 ("README.txt", "info", @blue)
 ("README", "info", @blue)
 
+// RENOVATE
+("renovate.json", "renovate", @blue)
+("renovate.json5", "renovate", @blue)
+("renovaterc", "renovate", @blue)
+("renovaterc.json", "renovate", @blue)
+
 // CHANGELOG
 ('CHANGELOG.md', 'clock', @blue)
 ('CHANGELOG.txt', 'clock', @blue)
