@@ -1556,116 +1556,132 @@
 			"fontCharacter": "\\E0A6",
 			"fontColor": "#f55385"
 		},
-		"_vue_light": {
+		"_vite_light": {
 			"fontCharacter": "\\E0A7",
+			"fontColor": "#9068b0"
+		},
+		"_vite": {
+			"fontCharacter": "\\E0A7",
+			"fontColor": "#a074c4"
+		},
+		"_vitest_light": {
+			"fontCharacter": "\\E0A8",
+			"fontColor": "#7fae42"
+		},
+		"_vitest": {
+			"fontCharacter": "\\E0A8",
+			"fontColor": "#8dc149"
+		},
+		"_vue_light": {
+			"fontCharacter": "\\E0A9",
 			"fontColor": "#7fae42"
 		},
 		"_vue": {
-			"fontCharacter": "\\E0A7",
+			"fontCharacter": "\\E0A9",
 			"fontColor": "#8dc149"
 		},
 		"_wasm_light": {
-			"fontCharacter": "\\E0A8",
+			"fontCharacter": "\\E0AA",
 			"fontColor": "#9068b0"
 		},
 		"_wasm": {
-			"fontCharacter": "\\E0A8",
+			"fontCharacter": "\\E0AA",
 			"fontColor": "#a074c4"
 		},
 		"_wat_light": {
-			"fontCharacter": "\\E0A9",
+			"fontCharacter": "\\E0AB",
 			"fontColor": "#9068b0"
 		},
 		"_wat": {
-			"fontCharacter": "\\E0A9",
+			"fontCharacter": "\\E0AB",
 			"fontColor": "#a074c4"
 		},
 		"_webpack_light": {
-			"fontCharacter": "\\E0AA",
+			"fontCharacter": "\\E0AC",
 			"fontColor": "#498ba7"
 		},
 		"_webpack": {
-			"fontCharacter": "\\E0AA",
+			"fontCharacter": "\\E0AC",
 			"fontColor": "#519aba"
 		},
 		"_wgt_light": {
-			"fontCharacter": "\\E0AB",
+			"fontCharacter": "\\E0AD",
 			"fontColor": "#498ba7"
 		},
 		"_wgt": {
-			"fontCharacter": "\\E0AB",
+			"fontCharacter": "\\E0AD",
 			"fontColor": "#519aba"
 		},
 		"_windows_light": {
-			"fontCharacter": "\\E0AC",
+			"fontCharacter": "\\E0AE",
 			"fontColor": "#498ba7"
 		},
 		"_windows": {
-			"fontCharacter": "\\E0AC",
+			"fontCharacter": "\\E0AE",
 			"fontColor": "#519aba"
 		},
 		"_word_light": {
-			"fontCharacter": "\\E0AD",
+			"fontCharacter": "\\E0AF",
 			"fontColor": "#498ba7"
 		},
 		"_word": {
-			"fontCharacter": "\\E0AD",
+			"fontCharacter": "\\E0AF",
 			"fontColor": "#519aba"
 		},
 		"_xls_light": {
-			"fontCharacter": "\\E0AE",
+			"fontCharacter": "\\E0B0",
 			"fontColor": "#7fae42"
 		},
 		"_xls": {
-			"fontCharacter": "\\E0AE",
+			"fontCharacter": "\\E0B0",
 			"fontColor": "#8dc149"
 		},
 		"_xml_light": {
-			"fontCharacter": "\\E0AF",
+			"fontCharacter": "\\E0B1",
 			"fontColor": "#cc6d2e"
 		},
 		"_xml": {
-			"fontCharacter": "\\E0AF",
+			"fontCharacter": "\\E0B1",
 			"fontColor": "#e37933"
 		},
 		"_yarn_light": {
-			"fontCharacter": "\\E0B0",
+			"fontCharacter": "\\E0B2",
 			"fontColor": "#455155"
 		},
 		"_yarn": {
-			"fontCharacter": "\\E0B0",
+			"fontCharacter": "\\E0B2",
 			"fontColor": "#4d5a5e"
 		},
 		"_yml_light": {
-			"fontCharacter": "\\E0B1",
+			"fontCharacter": "\\E0B3",
 			"fontColor": "#9068b0"
 		},
 		"_yml": {
-			"fontCharacter": "\\E0B1",
+			"fontCharacter": "\\E0B3",
 			"fontColor": "#a074c4"
 		},
 		"_zig_light": {
-			"fontCharacter": "\\E0B2",
+			"fontCharacter": "\\E0B4",
 			"fontColor": "#cc6d2e"
 		},
 		"_zig": {
-			"fontCharacter": "\\E0B2",
+			"fontCharacter": "\\E0B4",
 			"fontColor": "#e37933"
 		},
 		"_zip_light": {
-			"fontCharacter": "\\E0B3",
+			"fontCharacter": "\\E0B5",
 			"fontColor": "#b8383d"
 		},
 		"_zip": {
-			"fontCharacter": "\\E0B3",
+			"fontCharacter": "\\E0B5",
 			"fontColor": "#cc3e44"
 		},
 		"_zip_1_light": {
-			"fontCharacter": "\\E0B3",
+			"fontCharacter": "\\E0B5",
 			"fontColor": "#627379"
 		},
 		"_zip_1": {
-			"fontCharacter": "\\E0B3",
+			"fontCharacter": "\\E0B5",
 			"fontColor": "#6d8086"
 		}
 	},
@@ -2007,6 +2023,18 @@
 		"webpack.prod.js": "_webpack",
 		"webpack.prod.cjs": "_webpack",
 		"webpack.prod.ts": "_webpack",
+		"vite.config.js": "_vite",
+		"vite.config.cjs": "_vite",
+		"vite.config.mjs": "_vite",
+		"vite.config.ts": "_vite",
+		"vite.config.cts": "_vite",
+		"vite.config.mts": "_vite",
+		"vitest.config.js": "_vitest",
+		"vitest.config.cjs": "_vitest",
+		"vitest.config.mjs": "_vitest",
+		"vitest.config.ts": "_vitest",
+		"vitest.config.cts": "_vitest",
+		"vitest.config.mts": "_vitest",
 		"license": "_license",
 		"licence": "_license",
 		"license.txt": "_license",
@@ -2542,6 +2570,18 @@
 			"webpack.prod.js": "_webpack_light",
 			"webpack.prod.cjs": "_webpack_light",
 			"webpack.prod.ts": "_webpack_light",
+			"vite.config.js": "_vite_light",
+			"vite.config.cjs": "_vite_light",
+			"vite.config.mjs": "_vite_light",
+			"vite.config.ts": "_vite_light",
+			"vite.config.cts": "_vite_light",
+			"vite.config.mts": "_vite_light",
+			"vitest.config.js": "_vitest_light",
+			"vitest.config.cjs": "_vitest_light",
+			"vitest.config.mjs": "_vitest_light",
+			"vitest.config.ts": "_vitest_light",
+			"vitest.config.cts": "_vitest_light",
+			"vitest.config.mts": "_vitest_light",
 			"license": "_license_light",
 			"licence": "_license_light",
 			"license.txt": "_license_light",
@@ -2573,5 +2613,5 @@
 			"npm-debug.log": "_npm_ignored_light"
 		}
 	},
-	"version": "4b43f220d673a3968a5df4c7ebf3108fd4416f9a"
+	"version": "02a15062ecc0055d0c0a2017eb23c42083967c7e"
 }
