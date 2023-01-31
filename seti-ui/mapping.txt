@@ -737,6 +737,12 @@
 ("vitest.config.cts", "vitest", @green)
 ("vitest.config.mts", "vitest", @green)
 
+// OTHER BUILD TOOLS
+("tsup.config.js", "build", @grey-light)
+("tsup.config.ts", "build", @grey-light)
+("unbuild.config.js", "build", @grey-light)
+("unbuild.config.ts", "build", @grey-light)
+
 // MISC SETTING
 (".direnv", "config", @grey-light)
 (".env", "config", @grey-light)
