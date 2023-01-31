@@ -2045,6 +2045,7 @@
 		"playwright.config.js": "_playwright",
 		"playwright.config.ts": "_playwright",
 		"rollup.config.js": "_rollup",
+		"rollup.config.ts": "_rollup",
 		"pnpm.lock": "_pnpm",
 		"pnpm-workspace.yaml": "_pnpm_1",
 		"sass-lint.yml": "_sass",
@@ -2608,6 +2609,7 @@
 			"playwright.config.js": "_playwright_light",
 			"playwright.config.ts": "_playwright_light",
 			"rollup.config.js": "_rollup_light",
+			"rollup.config.ts": "_rollup_light",
 			"pnpm.lock": "_pnpm_light",
 			"pnpm-workspace.yaml": "_pnpm_1_light",
 			"sass-lint.yml": "_sass_light",
@@ -2677,5 +2679,5 @@
 			"npm-debug.log": "_npm_ignored_light"
 		}
 	},
-	"version": "3d5f76069634cc40b2106580b283f39f57350ae5"
+	"version": "13eae7a44536e698ea4c2c13a49bb5b7202fddde"
 }

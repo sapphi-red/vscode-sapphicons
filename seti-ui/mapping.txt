@@ -679,6 +679,7 @@
 
 // ROLLUP
 ("rollup.config.js", "rollup", @red)
+("rollup.config.ts", "rollup", @red)
 
 // PNPM
 ("pnpm.lock", "pnpm", @grey)
