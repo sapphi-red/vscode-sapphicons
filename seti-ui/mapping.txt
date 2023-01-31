@@ -10,6 +10,9 @@
 (".asm", "asm", @red)
 (".s", "asm", @red)
 
+// Astro
+(".astro", "astro", @orange)
+
 // Bicep
 (".bicep", "bicep", @blue)
 
