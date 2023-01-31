@@ -664,6 +664,16 @@
 
 ('platformio.ini', 'platformio', @orange)
 
+// NEXT
+("next.config.js", "next", @white)
+("next.config.mjs", "next", @white)
+
+// NUXT
+("nuxt.config.js", "nuxt", @green)
+("nuxt.config.mjs", "nuxt", @green)
+("nuxt.config.ts", "nuxt", @green)
+(".nuxtignore", "nuxt", @ignore)
+
 // PLAYWRIGHT
 ("playwright.config.js", "playwright", @green)
 ("playwright.config.ts", "playwright", @green)
@@ -715,6 +725,9 @@
 ('.stylelintignore', 'stylelint', @grey)
 ('stylelint.config.js', 'stylelint', @white)
 ('stylelint.config.cjs', 'stylelint', @white)
+
+// SVELTE
+("svelte.config.js", "svelteconfig", @purple)
 
 // TAILWINDCSS
 ("tailwind.config.js", "tailwindcss", @blue)
