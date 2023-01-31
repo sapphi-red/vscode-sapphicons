@@ -15,9 +15,9 @@ jobs:
       - name: setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: "16.x"
-          cache: "npm"
-          registry-url: "https://registry.npmjs.org"
+          node-version: '16.x'
+          cache: 'npm'
+          registry-url: 'https://registry.npmjs.org'
       - name: ci
         run: npm ci
       - name: pack
@@ -25,7 +25,7 @@ jobs:
       - name: github release
         uses: softprops/action-gh-release@v1
         with:
-          files: "*.vsix"
+          files: '*.vsix'
           fail_on_unmatched_files: true
       - name: publish
         run: npm run vscode:publish
