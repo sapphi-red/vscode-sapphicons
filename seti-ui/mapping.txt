@@ -674,6 +674,10 @@
 ("nuxt.config.ts", "nuxt", @green)
 (".nuxtignore", "nuxt", @ignore)
 
+// NX
+("nx.json", "nx", @white)
+(".nxignore", "nx", @ignore)
+
 // PLAYWRIGHT
 ("playwright.config.js", "playwright", @green)
 ("playwright.config.ts", "playwright", @green)
@@ -731,6 +735,9 @@
 
 // TAILWINDCSS
 ("tailwind.config.js", "tailwindcss", @blue)
+
+// TURBOREPO
+("turbo.json", "turborepo", @white)
 
 // YARN
 ("yarn.clean", "yarn", @grey)
