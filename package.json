@@ -41,10 +41,10 @@
     "gulp-iconfont-css": "^3.0.0",
     "gulp-svgmin": "^4.1.0",
     "lodash": "^4.17.21",
-    "minimatch": "^5.1.0",
-    "node-fetch-native": "^0.1.4",
+    "minimatch": "^6.1.6",
+    "node-fetch-native": "^1.0.1",
     "p-queue": "^6.6.2",
-    "prettier": "^2.7.1",
+    "prettier": "^2.8.3",
     "sirv-cli": "^2.0.2",
     "vsce": "^2.11.0"
   },
