@@ -1774,6 +1774,7 @@
 		"gitkeep": "_git",
 		"gitattributes": "_git",
 		"gitmodules": "_git",
+		"git-blame-ignore-revs": "_git",
 		"slide": "_go",
 		"article": "_go",
 		"gd": "_godot",
@@ -2257,6 +2258,7 @@
 			"gitkeep": "_git_light",
 			"gitattributes": "_git_light",
 			"gitmodules": "_git_light",
+			"git-blame-ignore-revs": "_git_light",
 			"slide": "_go_light",
 			"article": "_go_light",
 			"gd": "_godot_light",
@@ -2679,5 +2681,5 @@
 			"npm-debug.log": "_npm_ignored_light"
 		}
 	},
-	"version": "13eae7a44536e698ea4c2c13a49bb5b7202fddde"
+	"version": "6bc817f8f1a3ec9af368324d5659fe919cfab485"
 }

@@ -125,6 +125,7 @@
 (".gitkeep", "git", @ignore)
 (".gitattributes", "git", @ignore)
 (".gitmodules", "git", @ignore)
+(".git-blame-ignore-revs", "git", @ignore)
 ("COMMIT_EDITMSG", "git", @ignore)
 ("MERGE_MSG", "git", @ignore)
 
