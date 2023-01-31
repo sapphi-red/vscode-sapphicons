@@ -1,6 +1,6 @@
 {
 	"information_for_contributors": [
-		"This file is auto generated. See build/update-icon-theme.js"
+		"This file is auto generated. See build/update-icon-theme.mjs"
 	],
 	"fonts": [
 		{
@@ -2813,5 +2813,5 @@
 			"npm-debug.log": "_npm_ignored_light"
 		}
 	},
-	"version": "81918bf3c729ff0ba1d70b7aac2f6a02c0448b17"
+	"version": "4efe23cd1fe4b8794d19de2ebd7541da31ab5fd9"
 }

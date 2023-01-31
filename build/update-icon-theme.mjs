@@ -1,10 +1,10 @@
 'use strict'
 
-const fs = require('fs')
-const minimatch = require('minimatch')
-const fetch = require('node-fetch-native')
-const { execSync } = require('child_process')
-const PQueue = require('p-queue').default
+import fs from 'node:fs'
+import minimatch from 'minimatch'
+import fetch from 'node-fetch-native'
+import { execSync } from 'node:child_process'
+import PQueue from 'p-queue'
 
 const vscodeVersion = '1.71.0'
 
@@ -226,7 +226,7 @@ async function update() {
 
     const res = {
       information_for_contributors: [
-        'This file is auto generated. See build/update-icon-theme.js'
+        'This file is auto generated. See build/update-icon-theme.mjs'
       ],
       fonts: [
         {

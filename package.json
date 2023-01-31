@@ -29,7 +29,7 @@
   "icon": "icons/sapphicons-128.png",
   "scripts": {
     "create-icons": "gulp icons",
-    "update-theme": "node ./build/update-icon-theme.js",
+    "update-theme": "node ./build/update-icon-theme.mjs",
     "preview": "sirv --dev icons",
     "format": "prettier --cache --write .",
     "vscode:package": "vsce package",
