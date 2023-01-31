@@ -668,6 +668,17 @@
 ("playwright.config.js", "playwright", @green)
 ("playwright.config.ts", "playwright", @green)
 
+// POSTCSS
+(".postcssrc", "postcss", @red)
+(".postcssrc.js", "postcss", @red)
+(".postcssrc.mjs", "postcss", @red)
+(".postcssrc.cjs", "postcss", @red)
+(".postcssrc.ts", "postcss", @red)
+("postcss.config.js", "postcss", @red)
+("postcss.config.mjs", "postcss", @red)
+("postcss.config.cjs", "postcss", @red)
+("postcss.config.ts", "postcss", @red)
+
 // PRETTIER
 (".prettierrc", "prettier", @blue)
 (".prettierrc.json", "prettier", @blue)
@@ -705,6 +716,9 @@
 ('stylelint.config.js', 'stylelint', @white)
 ('stylelint.config.cjs', 'stylelint', @white)
 
+// TAILWINDCSS
+("tailwind.config.js", "tailwindcss", @blue)
+
 // YARN
 ("yarn.clean", "yarn", @grey)
 ("yarn.lock", "yarn", @grey)
@@ -725,6 +739,10 @@
 ("webpack.prod.js", "webpack", @blue)
 ("webpack.prod.cjs", "webpack", @blue)
 ("webpack.prod.ts", "webpack", @blue)
+
+// WINDICSS
+("windi.config.ts", "windicss", @blue)
+("windi.config.js", "windicss", @blue)
 
 // VITE
 ("vite.config.js", "vite", @purple)
