@@ -1634,172 +1634,180 @@
 			"fontCharacter": "\\E0AD",
 			"fontColor": "#519aba"
 		},
-		"_vala_light": {
+		"_unocss_light": {
 			"fontCharacter": "\\E0AE",
+			"fontColor": "#bfc2c1"
+		},
+		"_unocss": {
+			"fontCharacter": "\\E0AE",
+			"fontColor": "#d4d7d6"
+		},
+		"_vala_light": {
+			"fontCharacter": "\\E0AF",
 			"fontColor": "#627379"
 		},
 		"_vala": {
-			"fontCharacter": "\\E0AE",
+			"fontCharacter": "\\E0AF",
 			"fontColor": "#6d8086"
 		},
 		"_vercel_light": {
-			"fontCharacter": "\\E0AF",
+			"fontCharacter": "\\E0B0",
 			"fontColor": "#bfc2c1"
 		},
 		"_vercel": {
-			"fontCharacter": "\\E0AF",
+			"fontCharacter": "\\E0B0",
 			"fontColor": "#d4d7d6"
 		},
 		"_version_light": {
-			"fontCharacter": "\\E0B0",
+			"fontCharacter": "\\E0B1",
 			"fontColor": "#bfc2c1"
 		},
 		"_version": {
-			"fontCharacter": "\\E0B0",
+			"fontCharacter": "\\E0B1",
 			"fontColor": "#d4d7d6"
 		},
 		"_video_light": {
-			"fontCharacter": "\\E0B1",
+			"fontCharacter": "\\E0B2",
 			"fontColor": "#dd4b78"
 		},
 		"_video": {
-			"fontCharacter": "\\E0B1",
+			"fontCharacter": "\\E0B2",
 			"fontColor": "#f55385"
 		},
 		"_vite_light": {
-			"fontCharacter": "\\E0B2",
+			"fontCharacter": "\\E0B3",
 			"fontColor": "#9068b0"
 		},
 		"_vite": {
-			"fontCharacter": "\\E0B2",
+			"fontCharacter": "\\E0B3",
 			"fontColor": "#a074c4"
 		},
 		"_vitest_light": {
-			"fontCharacter": "\\E0B3",
+			"fontCharacter": "\\E0B4",
 			"fontColor": "#7fae42"
 		},
 		"_vitest": {
-			"fontCharacter": "\\E0B3",
+			"fontCharacter": "\\E0B4",
 			"fontColor": "#8dc149"
 		},
 		"_vue_light": {
-			"fontCharacter": "\\E0B4",
+			"fontCharacter": "\\E0B5",
 			"fontColor": "#7fae42"
 		},
 		"_vue": {
-			"fontCharacter": "\\E0B4",
+			"fontCharacter": "\\E0B5",
 			"fontColor": "#8dc149"
 		},
 		"_wasm_light": {
-			"fontCharacter": "\\E0B5",
+			"fontCharacter": "\\E0B6",
 			"fontColor": "#9068b0"
 		},
 		"_wasm": {
-			"fontCharacter": "\\E0B5",
+			"fontCharacter": "\\E0B6",
 			"fontColor": "#a074c4"
 		},
 		"_wat_light": {
-			"fontCharacter": "\\E0B6",
+			"fontCharacter": "\\E0B7",
 			"fontColor": "#9068b0"
 		},
 		"_wat": {
-			"fontCharacter": "\\E0B6",
+			"fontCharacter": "\\E0B7",
 			"fontColor": "#a074c4"
 		},
 		"_webpack_light": {
-			"fontCharacter": "\\E0B7",
+			"fontCharacter": "\\E0B8",
 			"fontColor": "#498ba7"
 		},
 		"_webpack": {
-			"fontCharacter": "\\E0B7",
+			"fontCharacter": "\\E0B8",
 			"fontColor": "#519aba"
 		},
 		"_wgt_light": {
-			"fontCharacter": "\\E0B8",
+			"fontCharacter": "\\E0B9",
 			"fontColor": "#498ba7"
 		},
 		"_wgt": {
-			"fontCharacter": "\\E0B8",
+			"fontCharacter": "\\E0B9",
 			"fontColor": "#519aba"
 		},
 		"_windicss_light": {
-			"fontCharacter": "\\E0B9",
+			"fontCharacter": "\\E0BA",
 			"fontColor": "#498ba7"
 		},
 		"_windicss": {
-			"fontCharacter": "\\E0B9",
+			"fontCharacter": "\\E0BA",
 			"fontColor": "#519aba"
 		},
 		"_windows_light": {
-			"fontCharacter": "\\E0BA",
+			"fontCharacter": "\\E0BB",
 			"fontColor": "#498ba7"
 		},
 		"_windows": {
-			"fontCharacter": "\\E0BA",
+			"fontCharacter": "\\E0BB",
 			"fontColor": "#519aba"
 		},
 		"_word_light": {
-			"fontCharacter": "\\E0BB",
+			"fontCharacter": "\\E0BC",
 			"fontColor": "#498ba7"
 		},
 		"_word": {
-			"fontCharacter": "\\E0BB",
+			"fontCharacter": "\\E0BC",
 			"fontColor": "#519aba"
 		},
 		"_xls_light": {
-			"fontCharacter": "\\E0BC",
+			"fontCharacter": "\\E0BD",
 			"fontColor": "#7fae42"
 		},
 		"_xls": {
-			"fontCharacter": "\\E0BC",
+			"fontCharacter": "\\E0BD",
 			"fontColor": "#8dc149"
 		},
 		"_xml_light": {
-			"fontCharacter": "\\E0BD",
+			"fontCharacter": "\\E0BE",
 			"fontColor": "#cc6d2e"
 		},
 		"_xml": {
-			"fontCharacter": "\\E0BD",
+			"fontCharacter": "\\E0BE",
 			"fontColor": "#e37933"
 		},
 		"_yarn_light": {
-			"fontCharacter": "\\E0BE",
+			"fontCharacter": "\\E0BF",
 			"fontColor": "#455155"
 		},
 		"_yarn": {
-			"fontCharacter": "\\E0BE",
+			"fontCharacter": "\\E0BF",
 			"fontColor": "#4d5a5e"
 		},
 		"_yml_light": {
-			"fontCharacter": "\\E0BF",
+			"fontCharacter": "\\E0C0",
 			"fontColor": "#9068b0"
 		},
 		"_yml": {
-			"fontCharacter": "\\E0BF",
+			"fontCharacter": "\\E0C0",
 			"fontColor": "#a074c4"
 		},
 		"_zig_light": {
-			"fontCharacter": "\\E0C0",
+			"fontCharacter": "\\E0C1",
 			"fontColor": "#cc6d2e"
 		},
 		"_zig": {
-			"fontCharacter": "\\E0C0",
+			"fontCharacter": "\\E0C1",
 			"fontColor": "#e37933"
 		},
 		"_zip_light": {
-			"fontCharacter": "\\E0C1",
+			"fontCharacter": "\\E0C2",
 			"fontColor": "#b8383d"
 		},
 		"_zip": {
-			"fontCharacter": "\\E0C1",
+			"fontCharacter": "\\E0C2",
 			"fontColor": "#cc3e44"
 		},
 		"_zip_1_light": {
-			"fontCharacter": "\\E0C1",
+			"fontCharacter": "\\E0C2",
 			"fontColor": "#627379"
 		},
 		"_zip_1": {
-			"fontCharacter": "\\E0C1",
+			"fontCharacter": "\\E0C2",
 			"fontColor": "#6d8086"
 		}
 	},
@@ -2178,6 +2186,14 @@
 		"webpack.prod.ts": "_webpack",
 		"windi.config.ts": "_windicss",
 		"windi.config.js": "_windicss",
+		"uno.config.js": "_unocss",
+		"uno.config.ts": "_unocss",
+		"uno.config.mjs": "_unocss",
+		"uno.config.mts": "_unocss",
+		"unocss.config.js": "_unocss",
+		"unocss.config.ts": "_unocss",
+		"unocss.config.mjs": "_unocss",
+		"unocss.config.mts": "_unocss",
 		"vite.config.js": "_vite",
 		"vite.config.cjs": "_vite",
 		"vite.config.mjs": "_vite",
@@ -2766,6 +2782,14 @@
 			"webpack.prod.ts": "_webpack_light",
 			"windi.config.ts": "_windicss_light",
 			"windi.config.js": "_windicss_light",
+			"uno.config.js": "_unocss_light",
+			"uno.config.ts": "_unocss_light",
+			"uno.config.mjs": "_unocss_light",
+			"uno.config.mts": "_unocss_light",
+			"unocss.config.js": "_unocss_light",
+			"unocss.config.ts": "_unocss_light",
+			"unocss.config.mjs": "_unocss_light",
+			"unocss.config.mts": "_unocss_light",
 			"vite.config.js": "_vite_light",
 			"vite.config.cjs": "_vite_light",
 			"vite.config.mjs": "_vite_light",
@@ -2813,5 +2837,5 @@
 			"npm-debug.log": "_npm_ignored_light"
 		}
 	},
-	"version": "f7208324651a5c77352eeb0266769cfd167dc884"
+	"version": "df91a137e57b569512d11c4d859630463fbe5690"
 }

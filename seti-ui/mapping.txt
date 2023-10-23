@@ -764,6 +764,16 @@
 ("windi.config.ts", "windicss", @blue)
 ("windi.config.js", "windicss", @blue)
 
+// UNOCSS
+("uno.config.js", "unocss", @white)
+("uno.config.ts", "unocss", @white)
+("uno.config.mjs", "unocss", @white)
+("uno.config.mts", "unocss", @white)
+("unocss.config.js", "unocss", @white)
+("unocss.config.ts", "unocss", @white)
+("unocss.config.mjs", "unocss", @white)
+("unocss.config.mts", "unocss", @white)
+
 // VITE
 ("vite.config.js", "vite", @purple)
 ("vite.config.cjs", "vite", @purple)
