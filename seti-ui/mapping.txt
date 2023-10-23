@@ -12,6 +12,9 @@
 
 // Astro
 (".astro", "astro", @orange)
+("astro.config.js", "astro", @purple)
+("astro.config.cjs", "astro", @purple)
+("astro.config.ts", "astro", @purple)
 
 // Bicep
 (".bicep", "bicep", @blue)
