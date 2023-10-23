@@ -1,6 +1,6 @@
 {
   "name": "vscode-sapphicons",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "publisher": "sapphi-red",
   "engines": {
     "vscode": "^1.71.0"
