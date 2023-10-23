@@ -1505,10 +1505,12 @@
 			"fontCharacter": "\\E0A1",
 			"fontColor": "#cc3e44"
 		},
-		"_svelteconfig_light": {
+		"_svelte_1_light": {
+			"fontCharacter": "\\E0A1",
 			"fontColor": "#9068b0"
 		},
-		"_svelteconfig": {
+		"_svelte_1": {
+			"fontCharacter": "\\E0A1",
 			"fontColor": "#a074c4"
 		},
 		"_svg_light": {
@@ -2164,7 +2166,7 @@
 		"sass-lint.yml": "_sass",
 		"stylelint.config.js": "_stylelint",
 		"stylelint.config.cjs": "_stylelint",
-		"svelte.config.js": "_svelteconfig",
+		"svelte.config.js": "_svelte_1",
 		"tailwind.config.js": "_tailwindcss",
 		"turbo.json": "_turborepo",
 		"yarn.clean": "_yarn",
@@ -2760,7 +2762,7 @@
 			"sass-lint.yml": "_sass_light",
 			"stylelint.config.js": "_stylelint_light",
 			"stylelint.config.cjs": "_stylelint_light",
-			"svelte.config.js": "_svelteconfig_light",
+			"svelte.config.js": "_svelte_1_light",
 			"tailwind.config.js": "_tailwindcss_light",
 			"turbo.json": "_turborepo_light",
 			"yarn.clean": "_yarn_light",
@@ -2837,5 +2839,5 @@
 			"npm-debug.log": "_npm_ignored_light"
 		}
 	},
-	"version": "df91a137e57b569512d11c4d859630463fbe5690"
+	"version": "08de9f53dd51e90064877e9f99220b4a10a7300d"
 }

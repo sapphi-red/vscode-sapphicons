@@ -731,7 +731,7 @@
 ('stylelint.config.cjs', 'stylelint', @white)
 
 // SVELTE
-("svelte.config.js", "svelteconfig", @purple)
+("svelte.config.js", "svelte", @purple)
 
 // TAILWINDCSS
 ("tailwind.config.js", "tailwindcss", @blue)
