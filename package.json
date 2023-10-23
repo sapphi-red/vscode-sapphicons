@@ -44,7 +44,7 @@
     "minimatch": "^9.0.3",
     "node-fetch-native": "^1.4.0",
     "p-queue": "^7.4.1",
-    "prettier": "^2.8.3",
+    "prettier": "^3.0.3",
     "sirv-cli": "^2.0.2",
     "vsce": "^2.15.0"
   },
