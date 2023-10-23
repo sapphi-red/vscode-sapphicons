@@ -36,6 +36,7 @@
     "vscode:publish": "vsce publish"
   },
   "devDependencies": {
+    "@vscode/vsce": "^2.15.0",
     "gulp": "^4.0.2",
     "gulp-iconfont": "^11.0.1",
     "gulp-iconfont-css": "^3.0.0",
@@ -45,8 +46,7 @@
     "node-fetch-native": "^1.4.0",
     "p-queue": "^7.4.1",
     "prettier": "^3.0.3",
-    "sirv-cli": "^2.0.2",
-    "vsce": "^2.15.0"
+    "sirv-cli": "^2.0.2"
   },
   "bugs": {
     "url": "https://github.com/sapphi-red/vscode-sapphicons/issues"
