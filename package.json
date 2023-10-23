@@ -41,12 +41,12 @@
     "gulp-iconfont-css": "^3.0.0",
     "gulp-svgmin": "^4.1.0",
     "lodash": "^4.17.21",
-    "minimatch": "^6.1.6",
-    "node-fetch-native": "^1.0.1",
-    "p-queue": "^7.3.0",
+    "minimatch": "^9.0.3",
+    "node-fetch-native": "^1.4.0",
+    "p-queue": "^7.4.1",
     "prettier": "^2.8.3",
     "sirv-cli": "^2.0.2",
-    "vsce": "^2.11.0"
+    "vsce": "^2.15.0"
   },
   "bugs": {
     "url": "https://github.com/sapphi-red/vscode-sapphicons/issues"

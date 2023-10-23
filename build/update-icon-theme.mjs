@@ -1,7 +1,7 @@
 'use strict'
 
 import fs from 'node:fs'
-import minimatch from 'minimatch'
+import { minimatch } from 'minimatch'
 import fetch from 'node-fetch-native'
 import { execSync } from 'node:child_process'
 import PQueue from 'p-queue'
