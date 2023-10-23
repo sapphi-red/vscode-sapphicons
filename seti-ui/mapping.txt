@@ -619,6 +619,7 @@
 (".eslintrc.yaml", "eslint", @purple)
 (".eslintrc.yml", "eslint", @purple)
 (".eslintrc.json", "eslint", @purple)
+("eslint.config.js", "eslint", @purple)
 (".eslintignore", "eslint", @grey)
 (".eslintcache", "eslint", @grey)
 
