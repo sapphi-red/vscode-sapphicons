@@ -13,6 +13,7 @@
 // Astro
 (".astro", "astro", @orange)
 ("astro.config.js", "astro", @purple)
+("astro.config.mjs", "astro", @purple)
 ("astro.config.cjs", "astro", @purple)
 ("astro.config.ts", "astro", @purple)
 
@@ -574,10 +575,14 @@
 // BABEL
 (".babelrc", "babel", @yellow)
 (".babelrc.js", "babel", @yellow)
+(".babelrc.mjs", "babel", @yellow)
 (".babelrc.cjs", "babel", @yellow)
+(".babelrc.cts", "babel", @yellow)
 ("babel.config.js", "babel", @yellow)
 ("babel.config.json", "babel", @yellow)
+("babel.config.mjs", "babel", @yellow)
 ("babel.config.cjs", "babel", @yellow)
+("babel.config.cts", "babel", @yellow)
 
 // BAZEL
 ("BUILD", "bazel", @green)
@@ -623,6 +628,8 @@
 (".eslintrc.yml", "eslint", @purple)
 (".eslintrc.json", "eslint", @purple)
 ("eslint.config.js", "eslint", @purple)
+("eslint.config.mjs", "eslint", @purple)
+("eslint.config.cjs", "eslint", @purple)
 (".eslintignore", "eslint", @grey)
 (".eslintcache", "eslint", @grey)
 
@@ -705,14 +712,17 @@
 (".prettierrc.yaml", "prettier", @blue)
 (".prettierrc.json5", "prettier", @blue)
 (".prettierrc.js", "prettier", @blue)
+(".prettierrc.mjs", "prettier", @blue)
 (".prettierrc.cjs", "prettier", @blue)
 (".prettier.config.js", "prettier", @blue)
+(".prettier.config.mjs", "prettier", @blue)
 (".prettier.config.cjs", "prettier", @blue)
 (".prettierrc.toml", "prettier", @blue)
 (".prettierignore", "prettier", @grey)
 
 // ROLLUP
 ("rollup.config.js", "rollup", @red)
+("rollup.config.mjs", "rollup", @red)
 ("rollup.config.ts", "rollup", @red)
 
 // PNPM
@@ -731,15 +741,22 @@
 ('.stylelintrc.yaml', 'stylelint', @white)
 ('.stylelintrc.yml', 'stylelint', @white)
 ('.stylelintrc.js', 'stylelint', @white)
+('.stylelintrc.mjs', 'stylelint', @white)
+('.stylelintrc.cjs', 'stylelint', @white)
 ('.stylelintignore', 'stylelint', @grey)
 ('stylelint.config.js', 'stylelint', @white)
+('stylelint.config.mjs', 'stylelint', @white)
 ('stylelint.config.cjs', 'stylelint', @white)
 
 // SVELTE
 ("svelte.config.js", "svelte", @purple)
+("svelte.config.mjs", "svelte", @purple)
+("svelte.config.cjs", "svelte", @purple)
 
 // TAILWINDCSS
 ("tailwind.config.js", "tailwindcss", @blue)
+("tailwind.config.mjs", "tailwindcss", @blue)
+("tailwind.config.cjs", "tailwindcss", @blue)
 
 // TURBOREPO
 ("turbo.json", "turborepo", @white)
@@ -750,18 +767,23 @@
 
 // WEBPACK
 ("webpack.config.js", "webpack", @blue)
+("webpack.config.mjs", "webpack", @blue)
 ("webpack.config.cjs", "webpack", @blue)
 ("webpack.config.ts", "webpack", @blue)
 ("webpack.config.build.js", "webpack", @blue)
+("webpack.config.build.mjs", "webpack", @blue)
 ("webpack.config.build.cjs", "webpack", @blue)
 ("webpack.config.build.ts", "webpack", @blue)
 ("webpack.common.js", "webpack", @blue)
+("webpack.common.mjs", "webpack", @blue)
 ("webpack.common.cjs", "webpack", @blue)
 ("webpack.common.ts", "webpack", @blue)
 ("webpack.dev.js", "webpack", @blue)
+("webpack.dev.mjs", "webpack", @blue)
 ("webpack.dev.cjs", "webpack", @blue)
 ("webpack.dev.ts", "webpack", @blue)
 ("webpack.prod.js", "webpack", @blue)
+("webpack.prod.mjs", "webpack", @blue)
 ("webpack.prod.cjs", "webpack", @blue)
 ("webpack.prod.ts", "webpack", @blue)
 
@@ -797,9 +819,18 @@
 
 // OTHER BUILD TOOLS
 ("tsup.config.js", "build", @grey-light)
+("tsup.config.cjs", "build", @grey-light)
+("tsup.config.mjs", "build", @grey-light)
 ("tsup.config.ts", "build", @grey-light)
-("unbuild.config.js", "build", @grey-light)
-("unbuild.config.ts", "build", @grey-light)
+("tsup.config.json", "build", @grey-light)
+// unbuild
+("build.config.js", "build", @grey-light)
+("build.config.cjs", "build", @grey-light)
+("build.config.mjs", "build", @grey-light)
+("build.config.ts", "build", @grey-light)
+("build.config.mts", "build", @grey-light)
+("build.config.mts", "build", @grey-light)
+("build.config.json", "build", @grey-light)
 
 // MISC SETTING
 (".direnv", "config", @grey-light)
