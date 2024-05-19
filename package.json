@@ -39,7 +39,6 @@
     "@vscode/vsce": "^2.15.0",
     "gulp": "^4.0.2",
     "gulp-iconfont": "^11.0.1",
-    "gulp-iconfont-css": "^3.0.0",
     "gulp-svgmin": "^4.1.0",
     "lodash": "^4.17.21",
     "minimatch": "^9.0.3",
