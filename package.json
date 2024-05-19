@@ -36,15 +36,14 @@
     "vscode:publish": "vsce publish"
   },
   "devDependencies": {
-    "@vscode/vsce": "^2.15.0",
+    "@vscode/vsce": "^2.26.1",
     "gulp": "^4.0.2",
     "gulp-iconfont": "^11.0.1",
     "gulp-svgmin": "^4.1.0",
     "lodash": "^4.17.21",
-    "minimatch": "^9.0.3",
-    "node-fetch-native": "^1.4.0",
-    "p-queue": "^7.4.1",
-    "prettier": "^3.0.3",
+    "minimatch": "^9.0.4",
+    "p-queue": "^8.0.1",
+    "prettier": "^3.2.5",
     "sirv-cli": "^2.0.2"
   },
   "bugs": {
