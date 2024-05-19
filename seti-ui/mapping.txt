@@ -566,6 +566,14 @@
 // APACHE
 ("mime.types", "config", @grey-light)
 
+// AQUA
+("aqua.yaml", "aqua", @blue)
+("aqua.yml", "aqua", @blue)
+(".aqua.yaml", "aqua", @blue)
+(".aqua.yml", "aqua", @blue)
+("aqua-checksums.json", "aqua", @grey)
+(".aqua-checksums.json", "aqua", @grey)
+
 // CADDY
 ("Caddyfile", "caddy", @green)
 
