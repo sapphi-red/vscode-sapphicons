@@ -620,6 +620,10 @@
 ("aqua-checksums.json", "aqua", @grey)
 (".aqua-checksums.json", "aqua", @grey)
 
+// BIOME
+("biome.json", "biome", @blue)
+("biome.jsonc", "biome", @blue)
+
 // CADDY
 ("Caddyfile", "caddy", @green)
 
