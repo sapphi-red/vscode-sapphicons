@@ -675,6 +675,9 @@
 ("codecov.yml", "codecov", @pink)
 (".codecov.yml", "codecov", @pink)
 
+// CODEOWNERS
+("CODEOWNERS", "codeowners", @white)
+
 // CYPRESS
 ("cypress.json", "cypress", @green)
 ("cypress.config.ts", "cypress", @green)
