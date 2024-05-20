@@ -682,6 +682,9 @@
 ("cypress.config.mjs", "cypress", @green)
 ("cypress.config.cjs", "cypress", @green)
 
+// DEPENDABOT
+("dependabot.yml", "dependabot", @blue)
+
 // ESLINT
 (".eslintrc", "eslint", @purple)
 (".eslintrc.js", "eslint", @purple)
