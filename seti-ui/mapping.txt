@@ -149,6 +149,7 @@
 
 // GRADLE
 (".gradle", "gradle", @blue)
+("gradle.properties", "gradle", @blue)
 
 // GRAILS
 (".groovy", "grails", @green)
@@ -444,6 +445,7 @@
 
 // TSCONFIG
 ("tsconfig.json", "tsconfig", @blue)
+(".tsbuildinfo", "tsconfig", @grey)
 
 // VALA
 (".vala", "vala", @grey-light)
@@ -770,6 +772,7 @@
 ("turbo.json", "turborepo", @white)
 
 // YARN
+(".yarnrc.yml", "yarn", @purple)
 ("yarn.clean", "yarn", @grey)
 ("yarn.lock", "yarn", @grey)
 
