@@ -917,6 +917,8 @@
 ("build.config.mts", "build", @grey-light)
 ("build.config.mts", "build", @grey-light)
 ("build.config.json", "build", @grey-light)
+("justfile", "build", @grey-light)
+(".justfile", "build", @grey-light)
 
 // MISC SETTING
 (".direnv", "config", @grey-light)
