@@ -374,6 +374,13 @@
 
 // RUST
 (".rs", "rust", @grey-light)
+("Cargo.toml", "rust", @grey-light)
+("Cargo.lock", "rust", @grey)
+("rust-toolchain.toml", "rust", @grey-light)
+("rustfmt.toml", "rust", @grey-light)
+(".rustfmt.toml", "rust", @grey-light)
+// cargo deny
+("deny.toml", "rust", @grey-light)
 
 // SASS
 (".sass", "sass", @pink)
