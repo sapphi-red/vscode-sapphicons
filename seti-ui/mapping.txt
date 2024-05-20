@@ -843,6 +843,10 @@
 ("tailwind.config.mjs", "tailwindcss", @blue)
 ("tailwind.config.cjs", "tailwindcss", @blue)
 
+// TAPLO
+(".taplo.toml", "taplo", @red)
+("taplo.toml", "taplo", @red)
+
 // TURBOREPO
 ("turbo.json", "turborepo", @white)
 
