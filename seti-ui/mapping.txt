@@ -334,6 +334,9 @@
 // ODATA
 (".odata", "odata", @orange)
 
+// PATCH
+(".patch", "patch", @white)
+
 // PERL
 (".pl", "perl", @blue)
 
