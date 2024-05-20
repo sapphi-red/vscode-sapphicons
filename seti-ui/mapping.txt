@@ -760,7 +760,7 @@
 (".jscsrc", "javascript", @blue)
 
 // LSLINT
-(".lslint.yml", "lslint", @blue)
+(".ls-lint.yml", "ls-lint", @blue)
 
 ('platformio.ini', 'platformio', @orange)
 

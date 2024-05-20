@@ -1097,11 +1097,11 @@
 			"fontCharacter": "\\EA6F",
 			"fontColor": "#8dc149"
 		},
-		"_lslint_light": {
+		"_ls-lint_light": {
 			"fontCharacter": "\\EA70",
 			"fontColor": "#498ba7"
 		},
-		"_lslint": {
+		"_ls-lint": {
 			"fontCharacter": "\\EA70",
 			"fontColor": "#519aba"
 		},
@@ -2304,7 +2304,7 @@
 		"gitlab-ci.yml": "_gitlab",
 		"jshintrc": "_javascript_3",
 		"jscsrc": "_javascript_3",
-		"lslint.yml": "_lslint",
+		"ls-lint.yml": "_ls-lint",
 		"nuxtignore": "_nuxt_1",
 		"nxignore": "_nx_1",
 		"postcssrc": "_postcss",
@@ -2918,7 +2918,7 @@
 			"gitlab-ci.yml": "_gitlab_light",
 			"jshintrc": "_javascript_3_light",
 			"jscsrc": "_javascript_3_light",
-			"lslint.yml": "_lslint_light",
+			"ls-lint.yml": "_ls-lint_light",
 			"nuxtignore": "_nuxt_1_light",
 			"nxignore": "_nx_1_light",
 			"postcssrc": "_postcss_light",
@@ -3269,5 +3269,5 @@
 			"npm-debug.log": "_npm_ignored_light"
 		}
 	},
-	"version": "b768a1d40d117c30310cd8fe1c4ad721de943d4b"
+	"version": "ddcfc27dc71322badaa17e0b690ab5e6a3cc36fa"
 }

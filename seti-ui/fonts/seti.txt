@@ -109,7 +109,7 @@ license:\EA6C
 liquid:\EA6D
 livescript:\EA6E
 lock:\EA6F
-lslint:\EA70
+ls-lint:\EA70
 lua:\EA71
 makefile:\EA72
 markdown:\EA73
