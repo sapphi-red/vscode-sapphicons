@@ -753,6 +753,7 @@
 
 // NX
 ("nx.json", "nx", @white)
+("lerna.json", "nx", @white)
 (".nxignore", "nx", @ignore)
 
 // PLAYWRIGHT
