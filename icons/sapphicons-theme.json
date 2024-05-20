@@ -2364,6 +2364,8 @@
 		"merge_msg": "_git",
 		"go.mod": "_go2",
 		"go.sum": "_go2_1",
+		"go.work": "_go2",
+		"go.work.sum": "_go2_1",
 		"taskfile.yml": "_task",
 		"taskfile.yaml": "_task",
 		"taskfile.dist.yml": "_task",
@@ -3060,6 +3062,8 @@
 			"merge_msg": "_git_light",
 			"go.mod": "_go2_light",
 			"go.sum": "_go2_1_light",
+			"go.work": "_go2_light",
+			"go.work.sum": "_go2_1_light",
 			"taskfile.yml": "_task_light",
 			"taskfile.yaml": "_task_light",
 			"taskfile.dist.yml": "_task_light",
@@ -3269,5 +3273,5 @@
 			"npm-debug.log": "_npm_ignored_light"
 		}
 	},
-	"version": "ddcfc27dc71322badaa17e0b690ab5e6a3cc36fa"
+	"version": "891960f01e03f01d4621d16917de600abd6b8395"
 }
