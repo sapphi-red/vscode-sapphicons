@@ -107,7 +107,7 @@ The MIT license applies to all non-font and non-icon files.
 ```
 
 ## Material Symbols
-`seti-ui/icons/patch.svg` is copied from [Material Symbols](https://github.com/google/material-design-icons).
+`seti-ui/icons/patch.svg`/`seti-ui/icons/cspell.svg` is copied from [Material Symbols](https://github.com/google/material-design-icons).
 
 ```
                                  Apache License

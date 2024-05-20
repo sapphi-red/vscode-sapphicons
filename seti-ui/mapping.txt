@@ -681,6 +681,19 @@
 // CODEOWNERS
 ("CODEOWNERS", "codeowners", @white)
 
+// CSPELL
+(".cspell.json", "cspell", @green)
+("cspell.json", "cspell", @green)
+(".cSpell.json", "cspell", @green)
+("cSpell.json", "cspell", @green)
+("cspell.config.js", "cspell", @green)
+("cspell.config.cjs", "cspell", @green)
+("cspell.config.json", "cspell", @green)
+("cspell.config.yaml", "cspell", @green)
+("cspell.config.yml", "cspell", @green)
+("cspell.yaml", "cspell", @green)
+("cspell.yml", "cspell", @green)
+
 // CYPRESS
 ("cypress.json", "cypress", @green)
 ("cypress.config.ts", "cypress", @green)
