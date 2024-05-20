@@ -434,8 +434,14 @@
 // SQL
 (".sql", "db", @pink)
 
+// SQLC
+(".sqlc", "sqlc", @blue)
+
 // SOQL
 (".soql", "db", @blue)
+
+// TBLS
+(".tbls", "tbls", @blue)
 
 // TERRAFORM
 (".tf", "terraform", @purple)
