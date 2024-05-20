@@ -758,6 +758,9 @@
 (".jshintrc", "javascript", @blue)
 (".jscsrc", "javascript", @blue)
 
+// LSLINT
+(".lslint.yml", "lslint", @blue)
+
 ('platformio.ini', 'platformio', @orange)
 
 // NEXT
