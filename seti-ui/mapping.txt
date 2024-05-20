@@ -671,6 +671,10 @@
 // BABEL
 (".codeclimate.yml", "code-climate", @green)
 
+// CODECOV
+("codecov.yml", "codecov", @pink)
+(".codecov.yml", "codecov", @pink)
+
 // CYPRESS
 ("cypress.json", "cypress", @green)
 ("cypress.config.ts", "cypress", @green)
