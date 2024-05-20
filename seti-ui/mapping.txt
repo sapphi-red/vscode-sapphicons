@@ -28,6 +28,12 @@
 (".bazelignore", "bazel", @green)
 (".bazelversion", "bazel", @green)
 
+// Buf
+("buf.yaml", "buf", @blue)
+("buf.lock", "buf", @grey)
+("buf.gen.yaml", "buf", @blue)
+(".proto", "buf", @blue)
+
 // C
 (".c", "c", @blue)
 (".h", "c", @purple)
