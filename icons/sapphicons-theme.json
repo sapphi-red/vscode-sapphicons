@@ -2246,6 +2246,7 @@
 		"psd": "_photoshop",
 		"pdf": "_pdf",
 		"eot": "_font",
+		"otf": "_font",
 		"ttf": "_font",
 		"woff": "_font",
 		"woff2": "_font",
@@ -2859,6 +2860,7 @@
 			"psd": "_photoshop_light",
 			"pdf": "_pdf_light",
 			"eot": "_font_light",
+			"otf": "_font_light",
 			"ttf": "_font_light",
 			"woff": "_font_light",
 			"woff2": "_font_light",
@@ -3267,5 +3269,5 @@
 			"npm-debug.log": "_npm_ignored_light"
 		}
 	},
-	"version": "f47c38949bf8fa27b6198a67472f00ecdc27a531"
+	"version": "b768a1d40d117c30310cd8fe1c4ad721de943d4b"
 }

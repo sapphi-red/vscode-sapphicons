@@ -553,6 +553,7 @@
 
 // FONT FILES
 (".eot", "font", @red)
+(".otf", "font", @red)
 (".ttf", "font", @red)
 (".woff", "font", @red)
 (".woff2", "font", @red)
