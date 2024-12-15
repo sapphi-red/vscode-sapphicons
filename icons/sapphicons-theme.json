@@ -2213,6 +2213,7 @@
 		"erb.html": "_html_erb",
 		"html.erb": "_html_erb",
 		"rustfmt.toml": "_rust",
+		"clippy.toml": "_rust",
 		"sass": "_sass",
 		"springbeans": "_spring",
 		"slim": "_slim",
@@ -2416,6 +2417,7 @@
 		"cargo.lock": "_rust_1",
 		"rust-toolchain.toml": "_rust",
 		"rustfmt.toml": "_rust",
+		"clippy.toml": "_rust",
 		"deny.toml": "_rust",
 		"tsconfig.json": "_tsconfig",
 		"vercel.json": "_vercel",
@@ -2831,6 +2833,7 @@
 			"erb.html": "_html_erb_light",
 			"html.erb": "_html_erb_light",
 			"rustfmt.toml": "_rust_light",
+			"clippy.toml": "_rust_light",
 			"sass": "_sass_light",
 			"springbeans": "_spring_light",
 			"slim": "_slim_light",
@@ -3116,6 +3119,7 @@
 			"cargo.lock": "_rust_1_light",
 			"rust-toolchain.toml": "_rust_light",
 			"rustfmt.toml": "_rust_light",
+			"clippy.toml": "_rust_light",
 			"deny.toml": "_rust_light",
 			"tsconfig.json": "_tsconfig_light",
 			"vercel.json": "_vercel_light",
@@ -3293,5 +3297,5 @@
 			"npm-debug.log": "_npm_ignored_light"
 		}
 	},
-	"version": "d0b89e655cd67b8c89621d3e0057528718e9b469"
+	"version": "f16b1212b5df3e6b313bc4754f1ce3770d9eea84"
 }

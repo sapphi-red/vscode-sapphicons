@@ -413,6 +413,8 @@
 ("rust-toolchain.toml", "rust", @grey-light)
 ("rustfmt.toml", "rust", @grey-light)
 (".rustfmt.toml", "rust", @grey-light)
+("clippy.toml", "rust", @grey-light)
+(".clippy.toml", "rust", @grey-light)
 // cargo deny
 ("deny.toml", "rust", @grey-light)
 
