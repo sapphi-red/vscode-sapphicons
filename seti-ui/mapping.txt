@@ -781,6 +781,10 @@
 ("lerna.json", "nx", @white)
 (".nxignore", "nx", @ignore)
 
+// OXC
+(".oxlintrc.json", "oxc", @orange)
+(".oxlintignore", "oxc", @grey)
+
 // PLAYWRIGHT
 ("playwright.config.js", "playwright", @green)
 ("playwright.config.ts", "playwright", @green)
