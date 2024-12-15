@@ -955,6 +955,10 @@
 // dprint
 (".dprint.json", "config", @grey-light)
 (".dprint.jsonc", "config", @grey-light)
+// typos
+("typos.toml", "config", @grey-light)
+("_typos.toml", "config", @grey-light)
+(".typos.toml", "config", @grey-light)
 
 // LICENSE FILES
 ("LICENSE", "license", @yellow)
