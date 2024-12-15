@@ -949,6 +949,9 @@
 (".cer", "lock", @green)
 (".crt", "lock", @green)
 (".pem", "lock", @green)
+// dprint
+(".dprint.json", "config", @grey-light)
+(".dprint.jsonc", "config", @grey-light)
 
 // LICENSE FILES
 ("LICENSE", "license", @yellow)
