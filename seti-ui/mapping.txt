@@ -107,6 +107,10 @@
 // D
 (".d", "d", @red)
 
+// DENO
+("deno.json", "deno", @white)
+("deno.jsonc", "deno", @white)
+
 // DOC
 (".doc", "word", @blue)
 (".docx", "word", @blue)
