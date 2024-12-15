@@ -44,7 +44,7 @@
     "minimatch": "^10.0.1",
     "p-queue": "^8.0.1",
     "prettier": "^3.4.2",
-    "sirv-cli": "^2.0.2"
+    "sirv-cli": "^3.0.0"
   },
   "bugs": {
     "url": "https://github.com/sapphi-red/vscode-sapphicons/issues"
