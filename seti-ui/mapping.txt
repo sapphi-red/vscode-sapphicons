@@ -826,7 +826,7 @@
 ("rollup.config.ts", "rollup", @red)
 
 // PNPM
-("pnpm.lock", "pnpm", @grey)
+("pnpm-lock.yaml", "pnpm", @grey)
 ("pnpm-workspace.yaml", "pnpm", @yellow)
 
 // SASS LINT
