@@ -311,6 +311,9 @@
 // NETLIFY
 ("netlify.toml", "netlify", @blue)
 
+// NODE
+(".node", "nodejs", @green)
+
 // NPM
 (".njk", "nunjucks", @green)
 (".nunjucks", "nunjucks", @green)
