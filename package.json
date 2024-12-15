@@ -43,7 +43,7 @@
     "lodash": "^4.17.21",
     "minimatch": "^10.0.1",
     "p-queue": "^8.0.1",
-    "prettier": "^3.2.5",
+    "prettier": "^3.4.2",
     "sirv-cli": "^2.0.2"
   },
   "bugs": {
