@@ -694,6 +694,11 @@
 // BABEL
 (".codeclimate.yml", "code-climate", @green)
 
+// CLOUDFLARE
+("wrangler.toml", "cloudflare", @orange)
+("wrangler.json", "cloudflare", @orange)
+("wrangler.jsonc", "cloudflare", @orange)
+
 // CODECOV
 ("codecov.yml", "codecov", @pink)
 (".codecov.yml", "codecov", @pink)
