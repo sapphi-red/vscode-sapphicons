@@ -948,6 +948,11 @@
 ("tsup.config.mjs", "build", @grey-light)
 ("tsup.config.ts", "build", @grey-light)
 ("tsup.config.json", "build", @grey-light)
+("tsdown.config.js", "build", @grey-light)
+("tsdown.config.cjs", "build", @grey-light)
+("tsdown.config.mjs", "build", @grey-light)
+("tsdown.config.ts", "build", @grey-light)
+("tsdown.config.json", "build", @grey-light)
 // unbuild
 ("build.config.js", "build", @grey-light)
 ("build.config.cjs", "build", @grey-light)
