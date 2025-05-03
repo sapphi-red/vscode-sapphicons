@@ -509,6 +509,7 @@
 
 // TSCONFIG
 ("tsconfig.json", "tsconfig", @blue)
+("jsconfig.json", "jsconfig", @yellow)
 (".tsbuildinfo", "tsconfig", @grey)
 
 // VALA
