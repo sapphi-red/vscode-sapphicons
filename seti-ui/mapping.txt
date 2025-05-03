@@ -505,6 +505,7 @@
 (".d.ts", "typescriptdeclaration", @blue)
 (".d.mts", "typescriptdeclaration", @blue)
 (".d.cts", "typescriptdeclaration", @blue)
+(".test-d.ts", "typescriptdeclaration", @orange)
 
 // TSCONFIG
 ("tsconfig.json", "tsconfig", @blue)
