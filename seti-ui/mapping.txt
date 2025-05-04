@@ -390,6 +390,7 @@
 // PYTHON
 (".py", "python", @blue)
 (".pyc", "python", @grey)
+("pyproject.toml", "python", @purple)
 ("requirements.txt", "python", @purple)
 
 // REACT
