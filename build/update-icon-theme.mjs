@@ -5,7 +5,7 @@ import { minimatch } from 'minimatch'
 import { execSync } from 'node:child_process'
 import PQueue from 'p-queue'
 
-const vscodeVersion = '1.71.0'
+const vscodeVersion = '1.99.3'
 
 // list of languagesId not shipped with VSCode. The information is used to associate an icon with a language association
 // Please try and keep this list in alphabetical order! Thank you.
