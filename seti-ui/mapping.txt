@@ -984,6 +984,7 @@
 (".static", "config", @grey-light)
 (".editorconfig", "config", @grey-light)
 (".slugignore", "config", @grey-light)
+(".ini", "config", @grey-light)
 (".tmp", "clock", @grey-light)
 (".htaccess", "config", @grey-light)
 (".key", "lock", @green)
