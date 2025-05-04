@@ -10,11 +10,9 @@ jobs:
     name: release
     runs-on: ubuntu-latest
     steps:
-      - name: checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4
-      - name: setup Node
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: '20.x'
           cache: 'pnpm'
@@ -27,7 +25,6 @@ jobs:
         with:
           files: '*.vsix'
           fail_on_unmatched_files: true
-      - name: publish
-        run: pnpm run vscode:publish
+      - run: pnpm run vscode:publish
         env:
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
