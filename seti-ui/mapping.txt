@@ -406,6 +406,9 @@
 (".res", "rescript", @red)
 (".resi", "rescript", @pink)
 
+// Registry
+(".reg", "registry", @blue)
+
 // R
 ('.R', 'R', @blue)
 ('.rmd', 'R', @blue)

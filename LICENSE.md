@@ -316,7 +316,7 @@ The MIT license applies to all non-font and non-icon files.
 
 ## vscode-icons
 
-`seti-ui/icons/codeowners.svg` is based on [vscode-icons](https://github.com/vscode-icons/vscode-icons/).
+`seti-ui/icons/codeowners.svg`, `seti-ui/icons/registry.svg` are based on [vscode-icons](https://github.com/vscode-icons/vscode-icons/).
 
 ```
 The MIT License (MIT)
