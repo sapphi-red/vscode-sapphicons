@@ -28,7 +28,7 @@
   },
   "icon": "icons/sapphicons-128.png",
   "scripts": {
-    "create-icons": "gulp icons",
+    "create-icons": "NODE_OPTIONS=--no-experimental-require-module gulp icons",
     "update-theme": "node ./build/update-icon-theme.mjs",
     "preview": "sirv --dev icons",
     "format": "prettier --cache --write .",
@@ -37,8 +37,8 @@
   },
   "devDependencies": {
     "@vscode/vsce": "^3.2.1",
-    "gulp": "^4.0.2",
-    "gulp-iconfont": "^11.0.1",
+    "gulp": "^5.0.0",
+    "gulp-iconfont": "^12.0.0",
     "gulp-svgmin": "^4.1.0",
     "lodash": "^4.17.21",
     "minimatch": "^10.0.1",
