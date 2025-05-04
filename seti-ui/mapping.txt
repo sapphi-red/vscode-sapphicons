@@ -389,6 +389,7 @@
 
 // PYTHON
 (".py", "python", @blue)
+(".pyc", "python", @grey)
 ("requirements.txt", "python", @purple)
 
 // REACT
