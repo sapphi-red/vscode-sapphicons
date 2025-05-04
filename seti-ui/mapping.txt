@@ -536,6 +536,9 @@
 (".ruby-version", "version", @white)
 (".tool-versions", "version", @white)
 
+// Vscode
+(".vsix", "vscode", @green)
+
 // VUE
 (".vue", "vue", @green)
 
