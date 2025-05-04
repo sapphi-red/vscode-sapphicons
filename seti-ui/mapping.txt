@@ -941,6 +941,12 @@
 ("vitest.config.ts", "vitest", @green)
 ("vitest.config.cts", "vitest", @green)
 ("vitest.config.mts", "vitest", @green)
+("vitest.workspace.js", "vitest", @yellow)
+("vitest.workspace.cjs", "vitest", @yellow)
+("vitest.workspace.mjs", "vitest", @yellow)
+("vitest.workspace.ts", "vitest", @yellow)
+("vitest.workspace.cts", "vitest", @yellow)
+("vitest.workspace.mts", "vitest", @yellow)
 
 // OTHER BUILD TOOLS
 ("tsup.config.js", "build", @grey-light)
