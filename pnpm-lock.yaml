@@ -9,7 +9,7 @@ importers:
   .:
     devDependencies:
       '@vscode/vsce':
-        specifier: ^3.2.1
+        specifier: ^3.3.2
         version: 3.3.2
       gulp:
         specifier: ^5.0.0
@@ -27,13 +27,13 @@ importers:
         specifier: ^10.0.1
         version: 10.0.1
       p-queue:
-        specifier: ^8.0.1
+        specifier: ^8.1.0
         version: 8.1.0
       prettier:
-        specifier: ^3.4.2
+        specifier: ^3.5.3
         version: 3.5.3
       sirv-cli:
-        specifier: ^3.0.0
+        specifier: ^3.0.1
         version: 3.0.1
 
 packages:
