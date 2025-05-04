@@ -5,12 +5,12 @@ import fs from 'node:fs'
 
 var fontName = 'seti'
 
-export async function font() {
+export function font() {
   return iconfont('./seti-ui/icons/*.svg', {
     normalize: true,
     fontHeight: 1000,
     fontName: fontName,
-    formats: ['woff2']
+    formats: ['ttf', 'woff2']
   })
     .on('glyphs', glyphs => {
       const glyphsString = glyphs
@@ -21,7 +21,7 @@ export async function font() {
         .join('')
       fs.writeFileSync('./seti-ui/fonts/seti.txt', glyphsString, 'utf8')
     })
-    .pipe(gulp.dest('./seti-ui/fonts/seti/'))
+    .pipe(gulp.dest('./seti-ui/fonts/seti/', { encoding: false }))
 }
 
 export function svg() {
