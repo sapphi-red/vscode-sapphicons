@@ -134,6 +134,9 @@
 // EXCALIDRAW
 (".excalidraw", "excalidraw", @white)
 
+// EXE
+(".exe", "application", @green)
+
 // FAVICON
 (".ico", "favicon", @yellow)
 

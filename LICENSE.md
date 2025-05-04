@@ -81,7 +81,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Material Design Icons
 
-`seti-ui/icons/build.svg` is copied from [Material Design Icons](https://github.com/Templarian/MaterialDesign).
+`seti-ui/icons/build.svg`, `seti-ui/icons/application.svg` are copied from [Material Design Icons](https://github.com/Templarian/MaterialDesign).
 
 ```
 Pictogrammers Free License
