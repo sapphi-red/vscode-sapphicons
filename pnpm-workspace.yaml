@@ -1,0 +1,6 @@
+ignoredBuiltDependencies:
+  - es5-ext
+onlyBuiltDependencies:
+  - '@vscode/vsce-sign'
+  - keytar
+  - ttf2woff2

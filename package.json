@@ -53,5 +53,6 @@
     "type": "git",
     "url": "https://github.com/sapphi-red/vscode-sapphicons.git"
   },
-  "homepage": "https://github.com/sapphi-red/vscode-sapphicons"
+  "homepage": "https://github.com/sapphi-red/vscode-sapphicons",
+  "packageManager": "pnpm@10.10.0"
 }
