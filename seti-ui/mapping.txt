@@ -845,6 +845,11 @@
 ("rollup.config.mjs", "rollup", @red)
 ("rollup.config.ts", "rollup", @red)
 
+// ROLLDOWN
+("rolldown.config.js", "rolldown", @orange)
+("rolldown.config.mjs", "rolldown", @orange)
+("rolldown.config.ts", "rolldown", @orange)
+
 // PNPM
 ("pnpm-lock.yaml", "pnpm", @grey)
 ("pnpm-workspace.yaml", "pnpm", @yellow)
