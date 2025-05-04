@@ -984,6 +984,8 @@
 (".crt", "lock", @green)
 (".pem", "lock", @green)
 // dprint
+("dprint.json", "config", @grey-light)
+("dprint.jsonc", "config", @grey-light)
 (".dprint.json", "config", @grey-light)
 (".dprint.jsonc", "config", @grey-light)
 // typos
