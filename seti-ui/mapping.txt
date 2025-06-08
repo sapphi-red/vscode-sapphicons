@@ -965,17 +965,19 @@
 ("vitest.workspace.cts", "vitest", @yellow)
 ("vitest.workspace.mts", "vitest", @yellow)
 
+// TSDOWN
+("tsdown.config.js", "tsdown", @grey-light)
+("tsdown.config.cjs", "tsdown", @grey-light)
+("tsdown.config.mjs", "tsdown", @grey-light)
+("tsdown.config.ts", "tsdown", @grey-light)
+("tsdown.config.json", "tsdown", @grey-light)
+
 // OTHER BUILD TOOLS
 ("tsup.config.js", "build", @grey-light)
 ("tsup.config.cjs", "build", @grey-light)
 ("tsup.config.mjs", "build", @grey-light)
 ("tsup.config.ts", "build", @grey-light)
 ("tsup.config.json", "build", @grey-light)
-("tsdown.config.js", "build", @grey-light)
-("tsdown.config.cjs", "build", @grey-light)
-("tsdown.config.mjs", "build", @grey-light)
-("tsdown.config.ts", "build", @grey-light)
-("tsdown.config.json", "build", @grey-light)
 // unbuild
 ("build.config.js", "build", @grey-light)
 ("build.config.cjs", "build", @grey-light)
