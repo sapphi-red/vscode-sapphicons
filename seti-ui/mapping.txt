@@ -260,6 +260,14 @@
 ('.kt', 'kotlin', @orange)
 ('.kts', 'kotlin', @orange)
 
+// KNIP
+("knip.json", "knip", @orange)
+("knip.jsonc", "knip", @orange)
+(".knip.json", "knip", @orange)
+(".knip.jsonc", "knip", @orange)
+("knip.js", "knip", @orange)
+("knip.ts", "knip", @orange)
+
 // DART
 (".dart", "dart", @blue)
 
